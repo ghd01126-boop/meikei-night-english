@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0b1020">
+<title>茗溪学園IB 夜の英語練習帳</title>
+<meta name="description" content="IB特別選抜B方式（英語）向け 夜15分の語彙・例文学習アプリ">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="夜の英語練習帳">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+
+<header class="appbar">
+  <div class="appbar__brand">
+    <span class="appbar__moon">☾</span>
+    <div>
+      <h1 class="appbar__title">夜の英語練習帳</h1>
+      <p class="appbar__sub">茗溪学園IB ・ 1日15分</p>
+    </div>
+  </div>
+  <div class="appbar__progress">
+    <div class="progress">
+      <div class="progress__bar" id="progressBar"></div>
+    </div>
+    <span class="progress__label" id="progressLabel">0 / 54 日</span>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab is-active" data-view="study" role="tab">学習</button>
+  <button class="tab" data-view="review" role="tab">復習 <span class="tab__badge">30</span></button>
+  <button class="tab" data-view="quiz" role="tab">クイズ <span class="tab__badge">6</span></button>
+  <button class="tab" data-view="base" role="tab">基礎語彙</button>
+</nav>
+
+<div class="daybar">
+  <button class="daybar__nav" id="prevDay" aria-label="前の日">‹</button>
+  <button class="daybar__picker" id="dayPicker">
+    <span class="daybar__num" id="dayNum">Day 1</span>
+    <span class="daybar__topic" id="dayTopic">—</span>
+  </button>
+  <button class="daybar__nav" id="nextDay" aria-label="次の日">›</button>
+</div>
+
+<main id="main">
+  <section id="view-study" class="view is-active"></section>
+  <section id="view-review" class="view"></section>
+  <section id="view-quiz" class="view"></section>
+  <section id="view-base" class="view"></section>
+</main>
+
+<div class="daygrid" id="dayGrid" hidden>
+  <div class="daygrid__head">
+    <h2>日をえらぶ</h2>
+    <button class="daygrid__close" id="dayGridClose">閉じる</button>
+  </div>
+  <div class="daygrid__list" id="dayGridList"></div>
+</div>
+
+<footer class="footer">
+  <span id="footerNote">例文を5回音読し、最後に1回は見ずに言う</span>
+  <div class="footer__ctrls">
+    <button class="footer__btn" id="voiceToggle" type="button">🔊 読み上げ: ON</button>
+    <button class="footer__reset" id="resetProgress">進捗をリセット</button>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

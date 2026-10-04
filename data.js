@@ -1,0 +1,5713 @@
+window.VOCAB_DATA = {
+  "app": "茗溪学園IB 夜の英語練習帳",
+  "schema_version": "1.0.0",
+  "language": {
+    "ui": "ja",
+    "content": "en",
+    "gloss": "ja"
+  },
+  "meta": {
+    "purpose": "IB特別選抜B方式（英語）向け 夜15分の語彙・例文学習アプリ",
+    "total_days": 54,
+    "total_vocab_entries": 324,
+    "unique_words": 297,
+    "units": [
+      "vocabulary",
+      "sentence",
+      "grammar_note",
+      "check_30s"
+    ],
+    "ipa_dialect": "en-US (CMUdict)",
+    "katakana_note": "発音の目安。ˈ直後を強く、ːは長めに。記号（IPA）を優先。"
+  },
+  "study_loop": {
+    "daily_minutes": 15,
+    "vocab_per_day": 30,
+    "breakdown": {
+      "new": 6,
+      "review_previous_day": 6,
+      "review_7_days_ago": 6,
+      "base_bank": 12
+    },
+    "sentence_task": "例文を5回音読し、最後に1回は見ずに言う",
+    "writing_model_days": [
+      7,
+      11,
+      16,
+      22,
+      26,
+      32,
+      35,
+      41,
+      46,
+      51
+    ]
+  },
+  "base_bank": {
+    "title": "最初に覚える基礎語彙24",
+    "items": [
+      {
+        "word": "policy",
+        "meaning": "政策"
+      },
+      {
+        "word": "source",
+        "meaning": "情報源"
+      },
+      {
+        "word": "evidence",
+        "meaning": "根拠"
+      },
+      {
+        "word": "report",
+        "meaning": "報告"
+      },
+      {
+        "word": "community",
+        "meaning": "地域社会"
+      },
+      {
+        "word": "support",
+        "meaning": "支援"
+      },
+      {
+        "word": "challenge",
+        "meaning": "課題"
+      },
+      {
+        "word": "result",
+        "meaning": "結果"
+      },
+      {
+        "word": "however",
+        "meaning": "しかしながら"
+      },
+      {
+        "word": "therefore",
+        "meaning": "したがって"
+      },
+      {
+        "word": "according to",
+        "meaning": "〜によれば"
+      },
+      {
+        "word": "suggest",
+        "meaning": "提案する"
+      },
+      {
+        "word": "affect",
+        "meaning": "影響する"
+      },
+      {
+        "word": "improve",
+        "meaning": "改善する"
+      },
+      {
+        "word": "reduce",
+        "meaning": "減らす"
+      },
+      {
+        "word": "reliable",
+        "meaning": "信頼できる"
+      },
+      {
+        "word": "opinion",
+        "meaning": "意見"
+      },
+      {
+        "word": "reason",
+        "meaning": "理由"
+      },
+      {
+        "word": "benefit",
+        "meaning": "利益"
+      },
+      {
+        "word": "protect",
+        "meaning": "守る"
+      },
+      {
+        "word": "although",
+        "meaning": "〜だけれども"
+      },
+      {
+        "word": "increase",
+        "meaning": "増加する"
+      },
+      {
+        "word": "provide",
+        "meaning": "提供する"
+      },
+      {
+        "word": "opportunity",
+        "meaning": "機会"
+      }
+    ]
+  },
+  "days": [
+    {
+      "day": 1,
+      "topic": "現在完了・過去問型",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The team has celebrated several victories, but the clean-up crew has also played an important role.",
+        "ja": "そのチームはいくつもの勝利を祝ってきたが、清掃スタッフも重要な役割を果たしてきた。",
+        "grammar_note": "現在完了 has + 過去分詞。過去から現在につながる経験。"
+      },
+      "vocabulary": [
+        {
+          "word": "ticker-tape parade",
+          "ipa": "ˈtɪkərteɪp pəreɪd",
+          "katakana": "ティッカーテープ　パレード",
+          "meaning": "紙吹雪パレード"
+        },
+        {
+          "word": "celebrate",
+          "ipa": "ˈsɛləˌbreɪt",
+          "katakana": "セレブレイト",
+          "meaning": "祝う"
+        },
+        {
+          "word": "hero",
+          "ipa": "ˈhɪroʊ",
+          "katakana": "ヒーロー",
+          "meaning": "英雄"
+        },
+        {
+          "word": "historic event",
+          "ipa": "hɪˈstɔrɪk ɪˈvɛnt",
+          "katakana": "ヒストリック　イベント",
+          "meaning": "歴史的な出来事"
+        },
+        {
+          "word": "stock market",
+          "ipa": "stɑk ˈmɑrkɪt",
+          "katakana": "ストック　マーケット",
+          "meaning": "株式市場"
+        },
+        {
+          "word": "recycled paper",
+          "ipa": "riˈsaɪkəld ˈpeɪpər",
+          "katakana": "リーサイカルド　ペイッパー",
+          "meaning": "再生紙"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 2,
+      "topic": "翻訳・間接疑問",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "I asked the visitors what they wanted, and then I explained it to the local people.",
+        "ja": "私は訪問者に何を望んでいるのかを尋ね、それから地域の人たちに説明した。",
+        "grammar_note": "間接疑問文は what + 主語 + 動詞の語順。"
+      },
+      "vocabulary": [
+        {
+          "word": "translator",
+          "ipa": "trænzˈleɪtər",
+          "katakana": "トランスレイター",
+          "meaning": "翻訳者"
+        },
+        {
+          "word": "communication",
+          "ipa": "kəmˌjunəˈkeɪʃən",
+          "katakana": "コミュニケーション",
+          "meaning": "意思疎通"
+        },
+        {
+          "word": "misunderstand",
+          "ipa": "ˌmɪsəndərˈstænd",
+          "katakana": "ミサンダースータンド",
+          "meaning": "誤解する"
+        },
+        {
+          "word": "gesture",
+          "ipa": "ˈʤɛsʧər",
+          "katakana": "ジェスチャー",
+          "meaning": "身ぶり"
+        },
+        {
+          "word": "frustration",
+          "ipa": "frəˈstreɪʃən",
+          "katakana": "フラストレーション",
+          "meaning": "いらだち"
+        },
+        {
+          "word": "bridge of understanding",
+          "ipa": "brɪʤ əv ˌəndərˈstændɪŋ",
+          "katakana": "ブリッジ　オブ　アンダースタンディング",
+          "meaning": "理解の架け橋"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 3,
+      "topic": "受動態・デジタル出版",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The stories were stored on a disk and displayed on a computer screen.",
+        "ja": "物語はディスクに保存され、コンピューター画面に表示された。",
+        "grammar_note": "過去の受動態 was/were + 過去分詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "floppy disk",
+          "ipa": "ˈflɑpi dɪsk",
+          "katakana": "フロッピー　ディスク",
+          "meaning": "フロッピーディスク"
+        },
+        {
+          "word": "store data",
+          "ipa": "stɔr ˈdætə",
+          "katakana": "ストア　データ",
+          "meaning": "データを保存する"
+        },
+        {
+          "word": "interactive",
+          "ipa": "ˌɪnərˈæktɪv",
+          "katakana": "インターアクチヴ",
+          "meaning": "双方向の"
+        },
+        {
+          "word": "feature story",
+          "ipa": "ˈfiʧər ˈstɔri",
+          "katakana": "フィーチャー　ストーリー",
+          "meaning": "特集記事"
+        },
+        {
+          "word": "version",
+          "ipa": "ˈvərʒən",
+          "katakana": "ヴァージャン",
+          "meaning": "版"
+        },
+        {
+          "word": "assemble",
+          "ipa": "əˈsɛmbəl",
+          "katakana": "アセンブル",
+          "meaning": "組み立てる"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 4,
+      "topic": "比較・過去問型",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The more carefully we listen, the fewer misunderstandings we make.",
+        "ja": "注意深く聞けば聞くほど、誤解は少なくなる。",
+        "grammar_note": "The 比較級, the 比較級。"
+      },
+      "vocabulary": [
+        {
+          "word": "medium",
+          "ipa": "ˈmidiəm",
+          "katakana": "ミディアム",
+          "meaning": "媒体"
+        },
+        {
+          "word": "publish",
+          "ipa": "ˈpəblɪʃ",
+          "katakana": "パブリシュ",
+          "meaning": "出版する"
+        },
+        {
+          "word": "issue",
+          "ipa": "ˈɪʃu",
+          "katakana": "イシュー",
+          "meaning": "号"
+        },
+        {
+          "word": "screen",
+          "ipa": "skrin",
+          "katakana": "スークーリーン",
+          "meaning": "画面"
+        },
+        {
+          "word": "randomly",
+          "ipa": "ˈrændəmli",
+          "katakana": "ランダムリー",
+          "meaning": "無作為に"
+        },
+        {
+          "word": "future",
+          "ipa": "fˈjuʧər",
+          "katakana": "フューチャー",
+          "meaning": "未来"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 5,
+      "topic": "寄付・動名詞",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Chelsea asked her friends to donate art supplies instead of buying birthday presents.",
+        "ja": "チェルシーは、誕生日プレゼントを買う代わりに画材を寄付してほしいと友達に頼んだ。",
+        "grammar_note": "ask 人 to do。instead of の後ろは名詞／動名詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "charity",
+          "ipa": "ˈʧɛrɪti",
+          "katakana": "チャリティー",
+          "meaning": "慈善団体"
+        },
+        {
+          "word": "donate",
+          "ipa": "ˈdoʊˌneɪt",
+          "katakana": "ドネイト",
+          "meaning": "寄付する"
+        },
+        {
+          "word": "art supplies",
+          "ipa": "ɑrt səˈplaɪz",
+          "katakana": "アート　サプライズ",
+          "meaning": "画材"
+        },
+        {
+          "word": "homeless shelter",
+          "ipa": "ˈhoʊmləs ˈʃɛltər",
+          "katakana": "ホームレス　シェルター",
+          "meaning": "ホームレス支援施設"
+        },
+        {
+          "word": "access to",
+          "ipa": "ˈækˌsɛs tɪ",
+          "katakana": "アクセス　トゥ",
+          "meaning": "〜を利用する機会"
+        },
+        {
+          "word": "express emotions",
+          "ipa": "ɪkˈsprɛs ˈɪˌmoʊʃənz",
+          "katakana": "イクスプレス　エモーションズ",
+          "meaning": "感情を表現する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 6,
+      "topic": "時制・災害報道",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The report said that heavy rain had damaged several roads before the rescue teams arrived.",
+        "ja": "報告書は、救助隊が着く前に大雨が複数の道路を損傷させていたと伝えた。",
+        "grammar_note": "過去より前の出来事は過去完了 had + 過去分詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "heavy rainfall",
+          "ipa": "ˈhɛvi ˈreɪnˌfɔl",
+          "katakana": "ヘビー　レインフォール",
+          "meaning": "大雨"
+        },
+        {
+          "word": "damage",
+          "ipa": "ˈdæmɪʤ",
+          "katakana": "ダメージ",
+          "meaning": "被害"
+        },
+        {
+          "word": "elderly",
+          "ipa": "ˈɛldərli",
+          "katakana": "エルダリー",
+          "meaning": "高齢の"
+        },
+        {
+          "word": "neighbor",
+          "ipa": "ˈneɪbər",
+          "katakana": "ネイバー",
+          "meaning": "近隣住民"
+        },
+        {
+          "word": "safe place",
+          "ipa": "seɪf pleɪs",
+          "katakana": "セーフ　プレイス",
+          "meaning": "安全な場所"
+        },
+        {
+          "word": "in a time of need",
+          "ipa": "ɪn ə taɪm əv nid",
+          "katakana": "イン　ア　タイム　アヴ　ニード",
+          "meaning": "困ったときに"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 7,
+      "topic": "英作文モデル①：意見＋理由",
+      "type": "writing_model",
+      "sentence": {
+        "en": "I think our city should create more small forests because they give us cleaner air and a place to relax.",
+        "ja": "私は、私たちの街はもっと小さな森をつくるべきだと思う。なぜなら、よりきれいな空気とくつろげる場所を与えてくれるからだ。",
+        "grammar_note": "英作文モデル。I think + should + 動詞原形 + because 〜。意見と理由を1文でつなぐ型。"
+      },
+      "vocabulary": [
+        {
+          "word": "tiny forest",
+          "ipa": "ˈtaɪni ˈfɔrɪst",
+          "katakana": "タイニー　フォレスト",
+          "meaning": "小さな森"
+        },
+        {
+          "word": "biodiversity",
+          "ipa": "ˌbaɪoʊdaɪˈvərsəti",
+          "katakana": "バイオダイバーシティ",
+          "meaning": "生物多様性"
+        },
+        {
+          "word": "native tree",
+          "ipa": "ˈneɪtɪv tri",
+          "katakana": "ネイティブ　ツリー",
+          "meaning": "在来樹"
+        },
+        {
+          "word": "absorb carbon dioxide",
+          "ipa": "əbˈzɔrb ˈkɑrbən daɪˈɑkˌsaɪd",
+          "katakana": "アブソーブ　カーボン　ダイオキサイド",
+          "meaning": "二酸化炭素を吸収する"
+        },
+        {
+          "word": "atmosphere",
+          "ipa": "ˈætməsˌfɪr",
+          "katakana": "アトモスフィア",
+          "meaning": "大気"
+        },
+        {
+          "word": "ecosystem",
+          "ipa": "ˈikoʊˌsɪstəm",
+          "katakana": "エコシステム",
+          "meaning": "生態系"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 8,
+      "topic": "仮定法・環境",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "If more people planted native trees, cities could provide better habitats for wildlife.",
+        "ja": "もっと多くの人が在来種の木を植えれば、都市は野生生物によりよい生息地を提供できるだろう。",
+        "grammar_note": "If + 過去形, could + 動詞原形。"
+      },
+      "vocabulary": [
+        {
+          "word": "plant",
+          "ipa": "plænt",
+          "katakana": "プーラント",
+          "meaning": "植える"
+        },
+        {
+          "word": "destroy",
+          "ipa": "dɪˈstrɔɪ",
+          "katakana": "デストロイ",
+          "meaning": "破壊する"
+        },
+        {
+          "word": "species",
+          "ipa": "ˈspiʃiz",
+          "katakana": "スピーシーズ",
+          "meaning": "種"
+        },
+        {
+          "word": "carbon emissions",
+          "ipa": "ˈkɑrbən ɪˈmɪʃənz",
+          "katakana": "カーボン　エミッションズ",
+          "meaning": "二酸化炭素排出"
+        },
+        {
+          "word": "community project",
+          "ipa": "kəmˈjunɪti ˈprɑʤɛkt",
+          "katakana": "コミュニティ　プロジェクト",
+          "meaning": "地域プロジェクト"
+        },
+        {
+          "word": "environmentally friendly",
+          "ipa": "ɪnˌvaɪrənˈmɛnəli ˈfrɛndli",
+          "katakana": "エンバイロンメンタリー　フレンドリー",
+          "meaning": "環境にやさしい"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 9,
+      "topic": "関係詞・ジェンダー平等",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Mellink designed cards in which gold, silver, and bronze replaced the traditional rankings.",
+        "ja": "メリンクは、従来の順位づけを金・銀・銅に置き換えたカードをデザインした。",
+        "grammar_note": "前置詞＋which の関係詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "gender inequality",
+          "ipa": "ˈʤɛndər ˌɪnɪkˈwɑləti",
+          "katakana": "ジェンダー　イネクオリティ",
+          "meaning": "ジェンダー不平等"
+        },
+        {
+          "word": "subtle",
+          "ipa": "ˈsətəl",
+          "katakana": "サトル",
+          "meaning": "微妙な・わずかな"
+        },
+        {
+          "word": "rank",
+          "ipa": "ræŋk",
+          "katakana": "ランク",
+          "meaning": "順位づけする"
+        },
+        {
+          "word": "neutrality",
+          "ipa": "nuˈtræləti",
+          "katakana": "ニュートラリティ",
+          "meaning": "中立性"
+        },
+        {
+          "word": "equal opportunity",
+          "ipa": "ˈikwəl ˌɑpərˈtunəti",
+          "katakana": "イコール　オポチュニティ",
+          "meaning": "平等な機会"
+        },
+        {
+          "word": "notice",
+          "ipa": "ˈnoʊtɪs",
+          "katakana": "ノーティス",
+          "meaning": "気づく"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 10,
+      "topic": "現在完了・研究",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Researchers have found that the language people speak can affect how they describe pain.",
+        "ja": "研究者たちは、人が話す言語が痛みの表現に影響しうることを見いだしてきた。",
+        "grammar_note": "have found は現在までの研究結果。"
+      },
+      "vocabulary": [
+        {
+          "word": "bilingual",
+          "ipa": "baɪˈlɪŋgwəl",
+          "katakana": "バイリンググワル",
+          "meaning": "二言語を話す"
+        },
+        {
+          "word": "bicultural",
+          "ipa": "ˌbaɪˈkʌltʃərəl",
+          "katakana": "バイカルチュラル",
+          "meaning": "二文化に属する"
+        },
+        {
+          "word": "participant",
+          "ipa": "pɑrˈtɪsəpənt",
+          "katakana": "パーティシパント",
+          "meaning": "参加者"
+        },
+        {
+          "word": "researcher",
+          "ipa": "ˈrisərʧər",
+          "katakana": "リサーチャー",
+          "meaning": "研究者"
+        },
+        {
+          "word": "physical response",
+          "ipa": "ˈfɪzɪkəl rɪˈspɑns",
+          "katakana": "フィジカル　レスポンス",
+          "meaning": "身体反応"
+        },
+        {
+          "word": "pain medication",
+          "ipa": "peɪn ˌmɛdəˈkeɪʃən",
+          "katakana": "ペイン　メディケーション",
+          "meaning": "鎮痛薬"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 11,
+      "topic": "英作文モデル②：〜すべきだった",
+      "type": "writing_model",
+      "sentence": {
+        "en": "We should have prepared emergency supplies earlier, so that every family could stay safe.",
+        "ja": "私たちはもっと早く非常用の物資を用意しておくべきだった。そうすればどの家族も安全でいられたのに。",
+        "grammar_note": "英作文モデル。should have + 過去分詞（〜すべきだった）。so that + 文で目的。"
+      },
+      "vocabulary": [
+        {
+          "word": "decision maker",
+          "ipa": "dɪˈsɪʒən ˈmeɪkər",
+          "katakana": "デシジョン　メイカー",
+          "meaning": "意思決定者"
+        },
+        {
+          "word": "warning",
+          "ipa": "ˈwɔrnɪŋ",
+          "katakana": "ワーニング",
+          "meaning": "警告"
+        },
+        {
+          "word": "pressure",
+          "ipa": "ˈprɛʃər",
+          "katakana": "プレッシャー",
+          "meaning": "圧力"
+        },
+        {
+          "word": "engineer",
+          "ipa": "ˈɛnʤəˈnɪr",
+          "katakana": "エンジニア",
+          "meaning": "技術者"
+        },
+        {
+          "word": "launch",
+          "ipa": "lɔnʧ",
+          "katakana": "ローンチ",
+          "meaning": "打ち上げる"
+        },
+        {
+          "word": "should have been heeded",
+          "ipa": "ʃʊd hæv bɪn ˈhidɪd",
+          "katakana": "シュッド　ハブ　ビーン　ヒーデッド",
+          "meaning": "聞き入れられるべきだった"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 12,
+      "topic": "強調構文・証拠",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "It was reliable evidence that should have guided the final decision.",
+        "ja": "最終決定のよりどころとなるべきだったのは、信頼できる証拠だった。",
+        "grammar_note": "It was A that ... で A を強調。"
+      },
+      "vocabulary": [
+        {
+          "word": "evidence",
+          "ipa": "ˈɛvədəns",
+          "katakana": "エビデンス",
+          "meaning": "証拠・根拠"
+        },
+        {
+          "word": "perspective",
+          "ipa": "pərˈspɛktɪv",
+          "katakana": "パースペクティブ",
+          "meaning": "視点"
+        },
+        {
+          "word": "reliable",
+          "ipa": "rɪˈlaɪəbəl",
+          "katakana": "リライアブル",
+          "meaning": "信頼できる"
+        },
+        {
+          "word": "catastrophic",
+          "ipa": "ˌkætəˈstrɑfɪk",
+          "katakana": "カタッストラフィク",
+          "meaning": "壊滅的な"
+        },
+        {
+          "word": "consequence",
+          "ipa": "ˈkɑnsəkwəns",
+          "katakana": "コンセクエンス",
+          "meaning": "結果"
+        },
+        {
+          "word": "make a decision",
+          "ipa": "meɪk ə dɪˈsɪʒən",
+          "katakana": "メイク　ア　ディシジャン",
+          "meaning": "決定する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 13,
+      "topic": "食品・関係詞",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Mealworms, which are rich in nutrients, may become part of a more sustainable food system.",
+        "ja": "栄養が豊富なミールワームは、より持続可能な食料システムの一部になるかもしれない。",
+        "grammar_note": "コンマ＋which は補足説明。"
+      },
+      "vocabulary": [
+        {
+          "word": "mealworm",
+          "ipa": "ˈmilwɜrm",
+          "katakana": "ミールワーム",
+          "meaning": "ミールワーム"
+        },
+        {
+          "word": "sustainable food source",
+          "ipa": "səˈsteɪnəbəl fud sɔrs",
+          "katakana": "サスーテイナバル　フード　ソース",
+          "meaning": "持続可能な食料源"
+        },
+        {
+          "word": "nutritious",
+          "ipa": "nuˈtrɪʃəs",
+          "katakana": "ヌートリシャス",
+          "meaning": "栄養価の高い"
+        },
+        {
+          "word": "greenhouse gas",
+          "ipa": "ˈgrinˌhaʊs gæs",
+          "katakana": "グーリーンハウス　ガス",
+          "meaning": "温室効果ガス"
+        },
+        {
+          "word": "public opinion",
+          "ipa": "ˈpəblɪk əˈpɪnjən",
+          "katakana": "パブリク　アピンヤン",
+          "meaning": "世論"
+        },
+        {
+          "word": "combine",
+          "ipa": "ˈkɑmbaɪn",
+          "katakana": "コンバイン",
+          "meaning": "組み合わせる"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 14,
+      "topic": "プラスチック・受動態",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Some disposable products have been banned, while reusable alternatives are being introduced.",
+        "ja": "使い捨て製品の一部は禁止され、再利用できる代替品が導入されつつある。",
+        "grammar_note": "現在完了受動態／現在進行形受動態。"
+      },
+      "vocabulary": [
+        {
+          "word": "single-use plastic",
+          "ipa": "ˈsɪŋgəljuz ˈplæstɪk",
+          "katakana": "シングガル　ユース　プーラスーチク",
+          "meaning": "使い捨てプラスチック"
+        },
+        {
+          "word": "phase out",
+          "ipa": "feɪz aʊt",
+          "katakana": "フェイズ　アウト",
+          "meaning": "段階的に廃止する"
+        },
+        {
+          "word": "alternative",
+          "ipa": "ɔlˈtərnətɪv",
+          "katakana": "オルタナティブ",
+          "meaning": "代替品"
+        },
+        {
+          "word": "waste management",
+          "ipa": "weɪst ˈmænɪʤmənt",
+          "katakana": "ウェイスト　マナジマント",
+          "meaning": "廃棄物管理"
+        },
+        {
+          "word": "recycle",
+          "ipa": "riˈsaɪkəl",
+          "katakana": "リーサイカル",
+          "meaning": "リサイクルする"
+        },
+        {
+          "word": "emissions reduction",
+          "ipa": "ɪˈmɪʃənz rɪˈdəkʃən",
+          "katakana": "イミシャンズ　ラダクシャン",
+          "meaning": "排出削減"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 15,
+      "topic": "学習・同時性",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Although multitasking may feel efficient, research suggests that it can make learning harder.",
+        "ja": "同時作業は効率的に感じられるかもしれないが、学習を難しくすることがあると研究は示している。",
+        "grammar_note": "Although は譲歩。suggest that 以下は主張の内容。"
+      },
+      "vocabulary": [
+        {
+          "word": "multitask",
+          "ipa": "ˈməltiˌtæsk",
+          "katakana": "マルチーッタスク",
+          "meaning": "同時に複数作業をする"
+        },
+        {
+          "word": "simultaneously",
+          "ipa": "ˌsaɪməlˈteɪniəsli",
+          "katakana": "サイマルテイニアスリー",
+          "meaning": "同時に"
+        },
+        {
+          "word": "survey",
+          "ipa": "ˈsərˌveɪ",
+          "katakana": "サーベイ",
+          "meaning": "調査"
+        },
+        {
+          "word": "claim",
+          "ipa": "kleɪm",
+          "katakana": "クレイム",
+          "meaning": "主張する"
+        },
+        {
+          "word": "research evidence",
+          "ipa": "ˈrisərʧ ˈɛvədəns",
+          "katakana": "リーサーチ　エビデンス",
+          "meaning": "研究上の証拠"
+        },
+        {
+          "word": "concentrate",
+          "ipa": "ˈkɑnsənˌtreɪt",
+          "katakana": "コンセントレイト",
+          "meaning": "集中する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 16,
+      "topic": "英作文モデル③：根拠を示す",
+      "type": "writing_model",
+      "sentence": {
+        "en": "According to the survey, students who read every day scored higher than those who did not.",
+        "ja": "その調査によれば、毎日読書をする生徒はそうでない生徒より高い得点を取った。",
+        "grammar_note": "英作文モデル。According to 〜 で根拠を示す。those who 〜 との比較。"
+      },
+      "vocabulary": [
+        {
+          "word": "efficient",
+          "ipa": "ɪˈfɪʃənt",
+          "katakana": "エフィシエント",
+          "meaning": "効率的な"
+        },
+        {
+          "word": "overlap",
+          "ipa": "ˈoʊvərˌlæp",
+          "katakana": "オーバーラップ",
+          "meaning": "重なる"
+        },
+        {
+          "word": "percentage",
+          "ipa": "pərˈsɛnɪʤ",
+          "katakana": "パーセンテージ",
+          "meaning": "割合"
+        },
+        {
+          "word": "decline",
+          "ipa": "dɪˈklaɪn",
+          "katakana": "ディクライン",
+          "meaning": "減少する"
+        },
+        {
+          "word": "as a result",
+          "ipa": "ɛz ə rɪˈzəlt",
+          "katakana": "アズ　ア　リザルト",
+          "meaning": "その結果"
+        },
+        {
+          "word": "whereas",
+          "ipa": "wɛˈræz",
+          "katakana": "ウェラズ",
+          "meaning": "一方で"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 17,
+      "topic": "未来の乗り物・関係詞",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "An air taxi is an aircraft that can carry passengers without using a long runway.",
+        "ja": "空飛ぶタクシーは、長い滑走路を使わずに乗客を運べる航空機だ。",
+        "grammar_note": "先行詞が物なので that。"
+      },
+      "vocabulary": [
+        {
+          "word": "pandemic",
+          "ipa": "pænˈdɛmɪk",
+          "katakana": "パンデミック",
+          "meaning": "パンデミック"
+        },
+        {
+          "word": "score",
+          "ipa": "skɔr",
+          "katakana": "スコア",
+          "meaning": "得点"
+        },
+        {
+          "word": "vulnerable",
+          "ipa": "ˈvəlnərəbəl",
+          "katakana": "ヴァルナーアバル",
+          "meaning": "影響を受けやすい"
+        },
+        {
+          "word": "outbreak",
+          "ipa": "ˈaʊtˌbreɪk",
+          "katakana": "アウトブレイク",
+          "meaning": "発生・流行"
+        },
+        {
+          "word": "learning from home",
+          "ipa": "ˈlərnɪŋ frəm hoʊm",
+          "katakana": "ラーニング　フーラム　ホウム",
+          "meaning": "自宅学習"
+        },
+        {
+          "word": "average",
+          "ipa": "ˈævərɪʤ",
+          "katakana": "アベレージ",
+          "meaning": "平均"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 18,
+      "topic": "健康・間接疑問",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The group asked whether the released water could affect people and the environment.",
+        "ja": "その団体は、放出された水が人々や環境に影響しうるかを尋ねた。",
+        "grammar_note": "whether + 主語 + 動詞の語順。"
+      },
+      "vocabulary": [
+        {
+          "word": "air taxi",
+          "ipa": "ɛr ˈtæksi",
+          "katakana": "エアタクシー",
+          "meaning": "空飛ぶタクシー"
+        },
+        {
+          "word": "aircraft",
+          "ipa": "ˈɛrˌkræft",
+          "katakana": "エアクラフト",
+          "meaning": "航空機"
+        },
+        {
+          "word": "runway",
+          "ipa": "ˈrənˌweɪ",
+          "katakana": "ランウェイ",
+          "meaning": "滑走路"
+        },
+        {
+          "word": "passenger",
+          "ipa": "ˈpæsənʤər",
+          "katakana": "パッセンジャー",
+          "meaning": "乗客"
+        },
+        {
+          "word": "recharge",
+          "ipa": "riˈʧɑrʤ",
+          "katakana": "リチャージ",
+          "meaning": "再充電する"
+        },
+        {
+          "word": "afford",
+          "ipa": "əˈfɔrd",
+          "katakana": "アフォード",
+          "meaning": "買う余裕がある"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 19,
+      "topic": "過去問・助動詞＋完了形",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Officials may have underestimated how worried local residents would be.",
+        "ja": "当局は、地域住民がどれほど心配するかを過小評価したのかもしれない。",
+        "grammar_note": "may have + 過去分詞＝〜したかもしれない。"
+      },
+      "vocabulary": [
+        {
+          "word": "radiation",
+          "ipa": "ˌreɪdiˈeɪʃən",
+          "katakana": "レイディエーション",
+          "meaning": "放射線"
+        },
+        {
+          "word": "radioactive",
+          "ipa": "ˌreɪdioʊˈæktɪv",
+          "katakana": "レイディーオウアクチヴ",
+          "meaning": "放射性の"
+        },
+        {
+          "word": "treated water",
+          "ipa": "ˈtritɪd ˈwɔtər",
+          "katakana": "トゥーリーッチド　ウォーター",
+          "meaning": "処理水"
+        },
+        {
+          "word": "dilute",
+          "ipa": "dɪˈlut",
+          "katakana": "ダイリュート",
+          "meaning": "薄める"
+        },
+        {
+          "word": "monitor",
+          "ipa": "ˈmɑnətər",
+          "katakana": "モニター",
+          "meaning": "監視する"
+        },
+        {
+          "word": "allay concerns",
+          "ipa": "əˈleɪ kənˈsərnz",
+          "katakana": "アレイ　カンサーンズ",
+          "meaning": "懸念を和らげる"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 20,
+      "topic": "経験・自由英作文型",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Trying something new taught me that a small step can lead to a meaningful change.",
+        "ja": "新しいことに挑戦して、小さな一歩が意味のある変化につながると学んだ。",
+        "grammar_note": "動名詞 Trying ... が文の主語。"
+      },
+      "vocabulary": [
+        {
+          "word": "risk",
+          "ipa": "rɪsk",
+          "katakana": "リスク",
+          "meaning": "危険性"
+        },
+        {
+          "word": "data",
+          "ipa": "ˈdætə",
+          "katakana": "デイタ",
+          "meaning": "データ"
+        },
+        {
+          "word": "fisheries",
+          "ipa": "ˈfɪʃəriz",
+          "katakana": "フィシャーイーズ",
+          "meaning": "漁業"
+        },
+        {
+          "word": "dialogue",
+          "ipa": "ˈdaɪəˌlɔg",
+          "katakana": "ダイアローグ",
+          "meaning": "対話"
+        },
+        {
+          "word": "release",
+          "ipa": "riˈlis",
+          "katakana": "リーリース",
+          "meaning": "放出する"
+        },
+        {
+          "word": "provide evidence",
+          "ipa": "prəˈvaɪd ˈɛvədəns",
+          "katakana": "プーラヴァイド　エビデンス",
+          "meaning": "証拠を示す"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 21,
+      "topic": "2025 AI教育・報告",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The report said that technology should support learning rather than replace teachers.",
+        "ja": "その報告は、技術は教師に取って代わるのではなく、学習を支えるべきだと述べた。",
+        "grammar_note": "said の後の間接話法。rather than は「〜するのではなく」。"
+      },
+      "vocabulary": [
+        {
+          "word": "technology",
+          "ipa": "tɛkˈnɑləʤi",
+          "katakana": "テクノロジー",
+          "meaning": "技術"
+        },
+        {
+          "word": "classroom",
+          "ipa": "ˈklæsˌrum",
+          "katakana": "クーラスルーム",
+          "meaning": "教室"
+        },
+        {
+          "word": "support learning",
+          "ipa": "səˈpɔrt ˈlərnɪŋ",
+          "katakana": "サポート　ラーニング",
+          "meaning": "学習を支援する"
+        },
+        {
+          "word": "distracting",
+          "ipa": "dɪˈstræktɪŋ",
+          "katakana": "ディストラクチング",
+          "meaning": "気が散る"
+        },
+        {
+          "word": "special needs",
+          "ipa": "ˈspɛʃəl nidz",
+          "katakana": "スーペシャル　ニードズ",
+          "meaning": "特別な支援ニーズ"
+        },
+        {
+          "word": "UNESCO",
+          "ipa": "juˈnɛskoʊ",
+          "katakana": "ユーネスーコウ",
+          "meaning": "ユネスコ"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 22,
+      "topic": "英作文モデル④：地域への効果",
+      "type": "writing_model",
+      "sentence": {
+        "en": "The event was designed not only for athletes but also for the people who live in the area.",
+        "ja": "その催しは選手のためだけでなく、その地域に住む人々のためにも計画された。",
+        "grammar_note": "英作文モデル。not only A but also B。who の関係代名詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "athlete",
+          "ipa": "ˈæθˌlit",
+          "katakana": "アスリート",
+          "meaning": "選手"
+        },
+        {
+          "word": "accommodation",
+          "ipa": "əˌkɑməˈdeɪʃən",
+          "katakana": "アコモデーション",
+          "meaning": "宿泊施設"
+        },
+        {
+          "word": "recovery",
+          "ipa": "rɪˈkəvəri",
+          "katakana": "リカバリー",
+          "meaning": "回復"
+        },
+        {
+          "word": "performance",
+          "ipa": "pərˈfɔrməns",
+          "katakana": "パフォーマンス",
+          "meaning": "競技成績"
+        },
+        {
+          "word": "environmental standard",
+          "ipa": "ɪnˌvaɪrənˈmɛnəl ˈstændərd",
+          "katakana": "インヴァイランメンタル　スータンダード",
+          "meaning": "環境基準"
+        },
+        {
+          "word": "community",
+          "ipa": "kəmˈjunɪti",
+          "katakana": "コミュニティ",
+          "meaning": "地域社会"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 23,
+      "topic": "地域社会・目的",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The village was designed to meet athletes’ needs and to benefit the local community.",
+        "ja": "その選手村は選手の必要を満たし、地域社会にも利益をもたらすよう設計された。",
+        "grammar_note": "be designed to do。目的を表す to 不定詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "hero’s journey",
+          "ipa": "ˈhɪroʊz ˈʤərni",
+          "katakana": "ヒーロー　ジャーニー",
+          "meaning": "英雄の旅"
+        },
+        {
+          "word": "mentor",
+          "ipa": "ˈmɛnˌtɔr",
+          "katakana": "メンター",
+          "meaning": "助言者"
+        },
+        {
+          "word": "challenge",
+          "ipa": "ˈʧælənʤ",
+          "katakana": "チャレンジ",
+          "meaning": "課題"
+        },
+        {
+          "word": "confidence",
+          "ipa": "ˈkɑnfədɛns",
+          "katakana": "コンフィデンス",
+          "meaning": "自信"
+        },
+        {
+          "word": "well-being",
+          "ipa": "wɛlbiɪŋ",
+          "katakana": "ウェル　ビーイング",
+          "meaning": "幸福・心身の健康"
+        },
+        {
+          "word": "resilience",
+          "ipa": "rɪˈzɪljəns",
+          "katakana": "リジリーアンス",
+          "meaning": "回復力"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 24,
+      "topic": "英雄の旅・要約",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The study suggested that imagining challenges as part of a journey could build confidence.",
+        "ja": "その研究は、課題を旅の一部として想像することが自信を育てうると示唆した。",
+        "grammar_note": "suggested that の内容。could は可能性。"
+      },
+      "vocabulary": [
+        {
+          "word": "headline",
+          "ipa": "ˈhɛˌdlaɪn",
+          "katakana": "ヘドライン",
+          "meaning": "見出し"
+        },
+        {
+          "word": "source",
+          "ipa": "sɔrs",
+          "katakana": "ソース",
+          "meaning": "情報源"
+        },
+        {
+          "word": "analyze",
+          "ipa": "ˈænəˌlaɪz",
+          "katakana": "アナライズ",
+          "meaning": "分析する"
+        },
+        {
+          "word": "opinion",
+          "ipa": "əˈpɪnjən",
+          "katakana": "アピンヤン",
+          "meaning": "意見"
+        },
+        {
+          "word": "reliable",
+          "ipa": "rɪˈlaɪəbəl",
+          "katakana": "リライアブル",
+          "meaning": "信頼できる"
+        },
+        {
+          "word": "in my view",
+          "ipa": "ɪn maɪ vju",
+          "katakana": "イン　マイ　ヴー",
+          "meaning": "私の考えでは"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 25,
+      "topic": "自由英作文・時事ニュース",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "When I choose a news story, I check who published it and what evidence it gives.",
+        "ja": "ニュースを選ぶとき、誰が発信したか、どんな根拠が示されているかを確認する。",
+        "grammar_note": "間接疑問 who / what + 主語 + 動詞。"
+      },
+      "vocabulary": [
+        {
+          "word": "El Niño",
+          "ipa": "el ˈninjoʊ",
+          "katakana": "エルニーニョ",
+          "meaning": "エルニーニョ"
+        },
+        {
+          "word": "Pacific Ocean",
+          "ipa": "pəˈsɪfɪk ˈoʊʃən",
+          "katakana": "パシフィク　オウシャン",
+          "meaning": "太平洋"
+        },
+        {
+          "word": "forecast",
+          "ipa": "ˈfɔrˌkæst",
+          "katakana": "フォーーカスト",
+          "meaning": "予報"
+        },
+        {
+          "word": "extreme heat",
+          "ipa": "ɪkˈstrim hit",
+          "katakana": "エクストリーム　ヒート",
+          "meaning": "極端な暑さ"
+        },
+        {
+          "word": "flood",
+          "ipa": "fləd",
+          "katakana": "フーラド",
+          "meaning": "洪水"
+        },
+        {
+          "word": "drought",
+          "ipa": "draʊt",
+          "katakana": "ドゥーラウト",
+          "meaning": "干ばつ"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 26,
+      "topic": "英作文モデル⑤：未来の予測",
+      "type": "writing_model",
+      "sentence": {
+        "en": "If the warming continues, heavy rain will become more common in many parts of Japan.",
+        "ja": "温暖化が続けば、日本の多くの地域で大雨がより一般的になるだろう。",
+        "grammar_note": "英作文モデル。条件の if 節は現在形、主節は will + 動詞原形。"
+      },
+      "vocabulary": [
+        {
+          "word": "rainfall",
+          "ipa": "ˈreɪnˌfɔl",
+          "katakana": "レインフォール",
+          "meaning": "降雨"
+        },
+        {
+          "word": "temperature",
+          "ipa": "ˈtɛmpərəʧər",
+          "katakana": "テンペラチャー",
+          "meaning": "気温"
+        },
+        {
+          "word": "weather pattern",
+          "ipa": "ˈwɛðər ˈpætərn",
+          "katakana": "ウェザー　パターン",
+          "meaning": "気象パターン"
+        },
+        {
+          "word": "likelihood",
+          "ipa": "ˈlaɪkliˌhʊd",
+          "katakana": "ライクリーフド",
+          "meaning": "可能性"
+        },
+        {
+          "word": "persist",
+          "ipa": "pərˈsɪst",
+          "katakana": "パーシスト",
+          "meaning": "続く"
+        },
+        {
+          "word": "intensify",
+          "ipa": "ˌɪnˈtɛnsɪˌfaɪ",
+          "katakana": "インテンサファイ",
+          "meaning": "強まる"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 27,
+      "topic": "気候・条件節",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "If heavy rain becomes more likely, communities should prepare evacuation plans in advance.",
+        "ja": "大雨の可能性が高まるなら、地域社会はあらかじめ避難計画を準備すべきだ。",
+        "grammar_note": "条件を表す if 節では未来のことも現在形。"
+      },
+      "vocabulary": [
+        {
+          "word": "early-warning system",
+          "ipa": "ˈərliˈwɔrnɪŋ ˈsɪstəm",
+          "katakana": "アーリー　ワーニング　シスータム",
+          "meaning": "早期警戒システム"
+        },
+        {
+          "word": "prepare",
+          "ipa": "priˈpɛr",
+          "katakana": "プーリーッペ",
+          "meaning": "備える"
+        },
+        {
+          "word": "agriculture",
+          "ipa": "ˈægrɪˌkəlʧər",
+          "katakana": "アグリカルチャー",
+          "meaning": "農業"
+        },
+        {
+          "word": "water supply",
+          "ipa": "ˈwɔtər səˈplaɪ",
+          "katakana": "ウォーター　サプライ",
+          "meaning": "水の供給"
+        },
+        {
+          "word": "vulnerable sector",
+          "ipa": "ˈvəlnərəbəl ˈsɛktər",
+          "katakana": "ヴァルナーアバル　セクター",
+          "meaning": "脆弱な分野"
+        },
+        {
+          "word": "humanitarian",
+          "ipa": "ˌjuˌmænəˈtɛriən",
+          "katakana": "ヒューマニタリアン",
+          "meaning": "人道支援の"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 28,
+      "topic": "気候・場所による違い",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Some regions may face floods, whereas others may experience drought.",
+        "ja": "洪水に直面する地域もあれば、干ばつを経験する地域もある。",
+        "grammar_note": "whereas は対比を表す。"
+      },
+      "vocabulary": [
+        {
+          "word": "emergency response",
+          "ipa": "ˈimərʤənsi rɪˈspɑns",
+          "katakana": "エマージェンシー　レスポンス",
+          "meaning": "緊急対応"
+        },
+        {
+          "word": "community",
+          "ipa": "kəmˈjunɪti",
+          "katakana": "コミュニティ",
+          "meaning": "地域社会"
+        },
+        {
+          "word": "risk",
+          "ipa": "rɪsk",
+          "katakana": "リスク",
+          "meaning": "危険"
+        },
+        {
+          "word": "impact",
+          "ipa": "ˌɪmˈpækt",
+          "katakana": "イムパクト",
+          "meaning": "影響"
+        },
+        {
+          "word": "unusual",
+          "ipa": "ənˈjuˌʒuəl",
+          "katakana": "アンユージューアル",
+          "meaning": "異例の"
+        },
+        {
+          "word": "as a result",
+          "ipa": "ɛz ə rɪˈzəlt",
+          "katakana": "アズ　ア　リザルト",
+          "meaning": "その結果"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 29,
+      "topic": "早期警戒・強調構文",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "It is an early-warning system that can help communities prepare before a disaster.",
+        "ja": "災害の前に地域社会が備えるのに役立つのは、早期警戒システムだ。",
+        "grammar_note": "It is A that ... で主語を強調。"
+      },
+      "vocabulary": [
+        {
+          "word": "global temperature",
+          "ipa": "ˈgloʊbəl ˈtɛmpərəʧər",
+          "katakana": "グーロウバル　テンペラチャー",
+          "meaning": "地球全体の気温"
+        },
+        {
+          "word": "threshold",
+          "ipa": "θˈrɛˌʃoʊld",
+          "katakana": "スーレショウルド",
+          "meaning": "しきい値"
+        },
+        {
+          "word": "overshoot",
+          "ipa": "ˈoʊvərˌʃut",
+          "katakana": "オウヴァーシュート",
+          "meaning": "一時的な超過"
+        },
+        {
+          "word": "peak",
+          "ipa": "pik",
+          "katakana": "ピーク",
+          "meaning": "ピークに達する"
+        },
+        {
+          "word": "decline",
+          "ipa": "dɪˈklaɪn",
+          "katakana": "ディクライン",
+          "meaning": "低下する"
+        },
+        {
+          "word": "pre-industrial",
+          "ipa": "priˌɪnˈdəstriəl",
+          "katakana": "プーリー　インダストリーアル",
+          "meaning": "産業革命前の"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 30,
+      "topic": "気候予測・間接話法",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The scientists explained that no single forecast could predict the exact impact on every country.",
+        "ja": "科学者たちは、どの予報一つをとっても各国への正確な影響までは予測できないと説明した。",
+        "grammar_note": "explained の後は過去視点。could は「できない可能性」。"
+      },
+      "vocabulary": [
+        {
+          "word": "greenhouse gas",
+          "ipa": "ˈgrinˌhaʊs gæs",
+          "katakana": "グーリーンハウス　ガス",
+          "meaning": "温室効果ガス"
+        },
+        {
+          "word": "emissions",
+          "ipa": "ɪˈmɪʃənz",
+          "katakana": "イミシャンズ",
+          "meaning": "排出量"
+        },
+        {
+          "word": "net zero",
+          "ipa": "nɛt ˈziroʊ",
+          "katakana": "ネト　ジロウ",
+          "meaning": "排出実質ゼロ"
+        },
+        {
+          "word": "carbon removal",
+          "ipa": "ˈkɑrbən rɪˈmuvəl",
+          "katakana": "カーバン　リムーヴァル",
+          "meaning": "炭素除去"
+        },
+        {
+          "word": "renewable energy",
+          "ipa": "riˈnuəbəl ˈɛnərʤi",
+          "katakana": "リーヌーアバル　エナージー",
+          "meaning": "再生可能エネルギー"
+        },
+        {
+          "word": "cut emissions",
+          "ipa": "kət ɪˈmɪʃənz",
+          "katakana": "カト　イミシャンズ",
+          "meaning": "排出量を削減する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 31,
+      "topic": "排出削減・関係詞",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Policies that cut greenhouse-gas emissions can also improve air quality.",
+        "ja": "温室効果ガスを削減する政策は、大気の質も改善しうる。",
+        "grammar_note": "関係代名詞 that が policies を説明。"
+      },
+      "vocabulary": [
+        {
+          "word": "adaptation",
+          "ipa": "ˌædəpˈteɪʃən",
+          "katakana": "アダプテイシャン",
+          "meaning": "適応"
+        },
+        {
+          "word": "mitigation",
+          "ipa": "ˌmɪtɪˈgeɪʃən",
+          "katakana": "ミチゲイシャン",
+          "meaning": "緩和"
+        },
+        {
+          "word": "resilience",
+          "ipa": "rɪˈzɪljəns",
+          "katakana": "リジリーアンス",
+          "meaning": "強靱さ"
+        },
+        {
+          "word": "ecosystem",
+          "ipa": "ˈikoʊˌsɪstəm",
+          "katakana": "エコシステム",
+          "meaning": "生態系"
+        },
+        {
+          "word": "irreversible",
+          "ipa": "ˌɪrɪˈvərsəbəl",
+          "katakana": "イリヴァーサバル",
+          "meaning": "不可逆的な"
+        },
+        {
+          "word": "low-lying coast",
+          "ipa": "loʊlaɪɪŋ koʊst",
+          "katakana": "ロウ　ライイング　コウスト",
+          "meaning": "低地の沿岸"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 32,
+      "topic": "英作文モデル⑥：程度の比較",
+      "type": "writing_model",
+      "sentence": {
+        "en": "The earlier we start saving energy, the easier it will be to protect our environment.",
+        "ja": "早く省エネを始めれば始めるほど、環境を守るのは容易になるだろう。",
+        "grammar_note": "英作文モデル。The 比較級, the 比較級（〜すればするほど）。"
+      },
+      "vocabulary": [
+        {
+          "word": "equity",
+          "ipa": "ˈɛkwəti",
+          "katakana": "エクワチー",
+          "meaning": "公平性"
+        },
+        {
+          "word": "justice",
+          "ipa": "ˈʤəstɪs",
+          "katakana": "ジャスータス",
+          "meaning": "正義"
+        },
+        {
+          "word": "inclusive",
+          "ipa": "ˌɪnˈklusɪv",
+          "katakana": "インクルーシヴ",
+          "meaning": "包摂的な"
+        },
+        {
+          "word": "governance",
+          "ipa": "ˈgəvərnəns",
+          "katakana": "ガバナンス",
+          "meaning": "ガバナンス"
+        },
+        {
+          "word": "finance",
+          "ipa": "ˈfaɪˌnæns",
+          "katakana": "ファイナンス",
+          "meaning": "資金"
+        },
+        {
+          "word": "collective action",
+          "ipa": "kəˈlɛktɪv ˈækʃən",
+          "katakana": "カレクチヴ　アクシャン",
+          "meaning": "共同の行動"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 33,
+      "topic": "適応と緩和・提案",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Experts recommend that governments strengthen resilience while reducing emissions.",
+        "ja": "専門家は、排出削減と並行して政府が強靱さを高めるよう勧めている。",
+        "grammar_note": "recommend that + 主語 + 動詞原形。"
+      },
+      "vocabulary": [
+        {
+          "word": "artificial intelligence",
+          "ipa": "ˌɑrtəˈfɪʃəl ˌɪnˈtɛləʤəns",
+          "katakana": "アータフィシャル　インテラジャンス",
+          "meaning": "人工知能"
+        },
+        {
+          "word": "AI literacy",
+          "ipa": "eɪaɪ ˈlɪtərəsi",
+          "katakana": "アイ　リターアシー",
+          "meaning": "AIリテラシー"
+        },
+        {
+          "word": "critical thinking",
+          "ipa": "ˈkrɪtɪkəl ˈθɪŋkɪŋ",
+          "katakana": "クーリチカル　シングキング",
+          "meaning": "批判的思考"
+        },
+        {
+          "word": "automated output",
+          "ipa": "ˈɔtəˌmeɪtɪd ˈaʊtˌpʊt",
+          "katakana": "オータメイチド　アウトプト",
+          "meaning": "自動生成された出力"
+        },
+        {
+          "word": "verify",
+          "ipa": "ˈvɛrəˌfaɪ",
+          "katakana": "ヴェラファイ",
+          "meaning": "確認する"
+        },
+        {
+          "word": "source",
+          "ipa": "sɔrs",
+          "katakana": "ソース",
+          "meaning": "情報源"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 34,
+      "topic": "気候公正・仮定法",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "If support were shared more fairly, vulnerable communities could adapt more effectively.",
+        "ja": "支援がより公平に分配されれば、脆弱な地域社会はもっと効果的に適応できるだろう。",
+        "grammar_note": "仮定法過去。be動詞は were。"
+      },
+      "vocabulary": [
+        {
+          "word": "reason",
+          "ipa": "ˈrizən",
+          "katakana": "リーザン",
+          "meaning": "筋道を立てて考える"
+        },
+        {
+          "word": "cognitive work",
+          "ipa": "ˈkɑgnɪtɪv wərk",
+          "katakana": "カグニチヴ　ワーク",
+          "meaning": "認知的な作業"
+        },
+        {
+          "word": "teacher agency",
+          "ipa": "ˈtiʧər ˈeɪʤənsi",
+          "katakana": "チーチャー　エイジャンシー",
+          "meaning": "教師の主体性"
+        },
+        {
+          "word": "learning outcome",
+          "ipa": "ˈlərnɪŋ ˈaʊtˌkəm",
+          "katakana": "ラーニング　アウトカム",
+          "meaning": "学習成果"
+        },
+        {
+          "word": "replace",
+          "ipa": "ˌriˈpleɪs",
+          "katakana": "リープレイス",
+          "meaning": "置き換える"
+        },
+        {
+          "word": "strengthen",
+          "ipa": "ˈstrɛŋθən",
+          "katakana": "スートゥーレングサン",
+          "meaning": "強化する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 35,
+      "topic": "英作文モデル⑦：譲歩して主張",
+      "type": "writing_model",
+      "sentence": {
+        "en": "AI can support our learning, but it should never replace the work of thinking for ourselves.",
+        "ja": "AIは私たちの学習を支えることはできるが、自分で考える作業を代わるべきではない。",
+        "grammar_note": "英作文モデル。but で譲歩し、should never で主張を強める。"
+      },
+      "vocabulary": [
+        {
+          "word": "age-appropriate",
+          "ipa": "eɪʤəˈproʊpriˌeɪt",
+          "katakana": "エイジ　アプロプリエイト",
+          "meaning": "年齢に適した"
+        },
+        {
+          "word": "privacy",
+          "ipa": "ˈpraɪvəsi",
+          "katakana": "プライバシー",
+          "meaning": "プライバシー"
+        },
+        {
+          "word": "learner",
+          "ipa": "ˈlərnər",
+          "katakana": "ラーナー",
+          "meaning": "学習者"
+        },
+        {
+          "word": "ethical",
+          "ipa": "ˈɛθɪkəl",
+          "katakana": "エシカル",
+          "meaning": "倫理的な"
+        },
+        {
+          "word": "responsible use",
+          "ipa": "riˈspɑnsəbəl juz",
+          "katakana": "リースーパッンサバル　ユース",
+          "meaning": "責任ある利用"
+        },
+        {
+          "word": "safeguard",
+          "ipa": "ˈseɪfˌgɑrd",
+          "katakana": "セイフガド",
+          "meaning": "保護策"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 36,
+      "topic": "批判的思考・間接疑問",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Students should ask how an AI answer was produced and whether its sources are reliable.",
+        "ja": "生徒は、AIの答えがどのように作られたか、情報源が信頼できるかを問うべきだ。",
+        "grammar_note": "how / whether の間接疑問。"
+      },
+      "vocabulary": [
+        {
+          "word": "policy brief",
+          "ipa": "ˈpɑləsi brif",
+          "katakana": "パラシー　ブーリーフ",
+          "meaning": "政策概要"
+        },
+        {
+          "word": "consultation",
+          "ipa": "ˌkɑnsəlˈteɪʃən",
+          "katakana": "カンサルテイシャン",
+          "meaning": "意見募集・協議"
+        },
+        {
+          "word": "framework",
+          "ipa": "ˈfreɪmˌwərk",
+          "katakana": "フレームワーク",
+          "meaning": "枠組み"
+        },
+        {
+          "word": "public comment",
+          "ipa": "ˈpəblɪk ˈkɑmɛnt",
+          "katakana": "パブリク　カメント",
+          "meaning": "一般からの意見"
+        },
+        {
+          "word": "procurement",
+          "ipa": "proʊˈkjʊrmənt",
+          "katakana": "プロキュアメント",
+          "meaning": "調達"
+        },
+        {
+          "word": "sovereignty",
+          "ipa": "ˈsɑvrənti",
+          "katakana": "ソブリンティ",
+          "meaning": "主権"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 37,
+      "topic": "AIと年齢・受動態",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Learning tools should be chosen carefully so that children’s privacy is protected.",
+        "ja": "子どものプライバシーが守られるよう、学習ツールは慎重に選ぶべきだ。",
+        "grammar_note": "so that + 文で目的。受動態 is protected。"
+      },
+      "vocabulary": [
+        {
+          "word": "misinformation",
+          "ipa": "ˌmɪsɪnfərˈmeɪʃən",
+          "katakana": "ミスインフォメーション",
+          "meaning": "誤情報"
+        },
+        {
+          "word": "fact-check",
+          "ipa": "fæktʧɛk",
+          "katakana": "ファクト　チェク",
+          "meaning": "事実確認"
+        },
+        {
+          "word": "reliable",
+          "ipa": "rɪˈlaɪəbəl",
+          "katakana": "リライアブル",
+          "meaning": "信頼できる"
+        },
+        {
+          "word": "bias",
+          "ipa": "baɪəs",
+          "katakana": "バイアス",
+          "meaning": "偏り"
+        },
+        {
+          "word": "evidence",
+          "ipa": "ˈɛvədəns",
+          "katakana": "エビデンス",
+          "meaning": "根拠"
+        },
+        {
+          "word": "deliberate",
+          "ipa": "dɪˈlɪbərˌeɪt",
+          "katakana": "ディリバーアト",
+          "meaning": "慎重に検討する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 38,
+      "topic": "協議・受動態",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The draft policy was shared publicly so that teachers and families could comment on it.",
+        "ja": "教師や家族が意見を述べられるよう、政策案は公開された。",
+        "grammar_note": "was shared は過去の受動態。so that は目的。"
+      },
+      "vocabulary": [
+        {
+          "word": "One Health",
+          "ipa": "wʌn hɛlθ",
+          "katakana": "ワン　ヘルス",
+          "meaning": "ワンヘルス"
+        },
+        {
+          "word": "human health",
+          "ipa": "ˈjumən hɛlθ",
+          "katakana": "フーマン　ヘルス",
+          "meaning": "人の健康"
+        },
+        {
+          "word": "animal health",
+          "ipa": "ˈænəməl hɛlθ",
+          "katakana": "アナマル　ヘルス",
+          "meaning": "動物の健康"
+        },
+        {
+          "word": "plant health",
+          "ipa": "plænt hɛlθ",
+          "katakana": "プーラント　ヘルス",
+          "meaning": "植物の健康"
+        },
+        {
+          "word": "ecosystem",
+          "ipa": "ˈikoʊˌsɪstəm",
+          "katakana": "エコシステム",
+          "meaning": "生態系"
+        },
+        {
+          "word": "collaboration",
+          "ipa": "kəˌlæbərˈeɪʃən",
+          "katakana": "コラボレーション",
+          "meaning": "協力"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 39,
+      "topic": "誤情報・仮定法",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "If readers checked the original source, they would be less likely to share misinformation.",
+        "ja": "読者が元の情報源を確認すれば、誤情報を共有しにくくなるだろう。",
+        "grammar_note": "If + 過去形, would + 原形。"
+      },
+      "vocabulary": [
+        {
+          "word": "evidence",
+          "ipa": "ˈɛvədəns",
+          "katakana": "エビデンス",
+          "meaning": "科学的根拠"
+        },
+        {
+          "word": "science-based",
+          "ipa": "saɪənsbeɪst",
+          "katakana": "サイアンス　ベイスト",
+          "meaning": "科学的根拠に基づく"
+        },
+        {
+          "word": "public trust",
+          "ipa": "ˈpəblɪk trəst",
+          "katakana": "パブリク　トゥーラスト",
+          "meaning": "社会の信頼"
+        },
+        {
+          "word": "health worker",
+          "ipa": "hɛlθ ˈwərkər",
+          "katakana": "ヘルス　ワーカー",
+          "meaning": "医療従事者"
+        },
+        {
+          "word": "research capacity",
+          "ipa": "ˈrisərʧ kəˈpæsɪti",
+          "katakana": "リーサーチ　カパサチー",
+          "meaning": "研究能力"
+        },
+        {
+          "word": "share knowledge",
+          "ipa": "ʃɛr ˈnɑlɪʤ",
+          "katakana": "シェ　ナラジ",
+          "meaning": "知識を共有する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 40,
+      "topic": "ワンヘルス・関係詞",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "One Health is an approach that connects human, animal, and environmental health.",
+        "ja": "ワンヘルスは、人・動物・環境の健康を結びつける考え方だ。",
+        "grammar_note": "先行詞 an approach を that 節が説明。"
+      },
+      "vocabulary": [
+        {
+          "word": "prevention",
+          "ipa": "priˈvɛnʃən",
+          "katakana": "プーリーヴェンシャン",
+          "meaning": "予防"
+        },
+        {
+          "word": "vaccination",
+          "ipa": "væksəˈneɪʃən",
+          "katakana": "ワクシネーション",
+          "meaning": "ワクチン接種"
+        },
+        {
+          "word": "infection",
+          "ipa": "ˌɪnˈfɛkʃən",
+          "katakana": "インフェクション",
+          "meaning": "感染"
+        },
+        {
+          "word": "protect lives",
+          "ipa": "prəˈtɛkt lɪvz",
+          "katakana": "プーラテクト　リヴズ",
+          "meaning": "命を守る"
+        },
+        {
+          "word": "health care",
+          "ipa": "hɛlθ kɛr",
+          "katakana": "ヘルス　ケ",
+          "meaning": "医療"
+        },
+        {
+          "word": "access",
+          "ipa": "ˈækˌsɛs",
+          "katakana": "アクセス",
+          "meaning": "利用機会"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 41,
+      "topic": "英作文モデル⑧：強調構文で根拠",
+      "type": "writing_model",
+      "sentence": {
+        "en": "It is reliable evidence that helps us decide what is really safe.",
+        "ja": "本当に安全なのかを決めるのに役立つのは、信頼できる根拠である。",
+        "grammar_note": "英作文モデル。It is A that ... で A を強調する。"
+      },
+      "vocabulary": [
+        {
+          "word": "official",
+          "ipa": "əˈfɪʃəl",
+          "katakana": "オフィシャル",
+          "meaning": "当局者"
+        },
+        {
+          "word": "announce",
+          "ipa": "əˈnaʊns",
+          "katakana": "アナウンス",
+          "meaning": "発表する"
+        },
+        {
+          "word": "reportedly",
+          "ipa": "rɪˈpɔrtədli",
+          "katakana": "リポーータドリー",
+          "meaning": "報道によれば"
+        },
+        {
+          "word": "confirm",
+          "ipa": "kənˈfərm",
+          "katakana": "カンファーム",
+          "meaning": "確認する"
+        },
+        {
+          "word": "according to",
+          "ipa": "əˈkɔrdɪŋ tɪ",
+          "katakana": "アコーディング　トゥ",
+          "meaning": "〜によれば"
+        },
+        {
+          "word": "recently",
+          "ipa": "ˈrisəntli",
+          "katakana": "リーサントリー",
+          "meaning": "最近"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 42,
+      "topic": "予防・助動詞＋完了形",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Communities should have prepared emergency supplies before the warning was issued.",
+        "ja": "地域社会は警報が出される前に、緊急物資を準備しておくべきだった。",
+        "grammar_note": "should have + 過去分詞＝〜しておくべきだった。"
+      },
+      "vocabulary": [
+        {
+          "word": "nearly",
+          "ipa": "ˈnɪrli",
+          "katakana": "ニーリー",
+          "meaning": "ほぼ"
+        },
+        {
+          "word": "more than",
+          "ipa": "mɔr ðən",
+          "katakana": "モー　ザン",
+          "meaning": "〜を超えて"
+        },
+        {
+          "word": "percentage point",
+          "ipa": "pərˈsɛnɪʤ pɔɪnt",
+          "katakana": "パーセンテージ　ポイント",
+          "meaning": "パーセントポイント"
+        },
+        {
+          "word": "average",
+          "ipa": "ˈævərɪʤ",
+          "katakana": "アベレージ",
+          "meaning": "平均"
+        },
+        {
+          "word": "measurement",
+          "ipa": "ˈmɛʒərmənt",
+          "katakana": "メジャーマント",
+          "meaning": "測定"
+        },
+        {
+          "word": "compared with",
+          "ipa": "kəmˈpɛrd wɪθ",
+          "katakana": "カムペド　ウィズ",
+          "meaning": "〜と比べて"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 43,
+      "topic": "ニュース報道・受動態",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The new policy was announced after officials had reviewed the evidence.",
+        "ja": "当局が根拠を検討した後、新しい政策が発表された。",
+        "grammar_note": "was announced は受動態、先行動作は過去完了。"
+      },
+      "vocabulary": [
+        {
+          "word": "cause",
+          "ipa": "kɔz",
+          "katakana": "カズ",
+          "meaning": "原因"
+        },
+        {
+          "word": "contribute to",
+          "ipa": "kənˈtrɪbjut tɪ",
+          "katakana": "コントリビュート　トゥ",
+          "meaning": "〜の一因となる"
+        },
+        {
+          "word": "lead to",
+          "ipa": "lɛd tɪ",
+          "katakana": "レド　トゥー",
+          "meaning": "〜につながる"
+        },
+        {
+          "word": "result in",
+          "ipa": "rɪˈzəlt ɪn",
+          "katakana": "リザルト　イン",
+          "meaning": "〜という結果になる"
+        },
+        {
+          "word": "although",
+          "ipa": "ˌɔlˈðoʊ",
+          "katakana": "オールゾウ",
+          "meaning": "〜だけれども"
+        },
+        {
+          "word": "however",
+          "ipa": "ˌhaʊˈɛvər",
+          "katakana": "ハウエバー",
+          "meaning": "しかし"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 44,
+      "topic": "数値の読み取り・比較",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The average score fell by seven percentage points, compared with the previous result.",
+        "ja": "平均点は前回の結果と比べて7パーセントポイント下がった。",
+        "grammar_note": "fall by + 差分。percentage point と percent を区別。"
+      },
+      "vocabulary": [
+        {
+          "word": "benefit",
+          "ipa": "ˈbɛnəfɪt",
+          "katakana": "ベナフィト",
+          "meaning": "利点"
+        },
+        {
+          "word": "drawback",
+          "ipa": "ˈdrɔˌbæk",
+          "katakana": "ドゥーローバク",
+          "meaning": "欠点"
+        },
+        {
+          "word": "trade-off",
+          "ipa": "treɪdɔf",
+          "katakana": "トゥーレイド　オーフ",
+          "meaning": "両立しにくい関係"
+        },
+        {
+          "word": "on the other hand",
+          "ipa": "ɔn ðə ˈəðər hænd",
+          "katakana": "アン　ザ　アザー　ハンド",
+          "meaning": "他方では"
+        },
+        {
+          "word": "in contrast",
+          "ipa": "ɪn ˈkɑntræst",
+          "katakana": "イン　カントラスト",
+          "meaning": "対照的に"
+        },
+        {
+          "word": "overall",
+          "ipa": "ˈoʊvərˌɔl",
+          "katakana": "オウヴァーオール",
+          "meaning": "全体として"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 45,
+      "topic": "原因と結果・分詞構文",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Although the forecast is uncertain, preparing early can reduce the risk of harm.",
+        "ja": "予報は不確実だが、早めの準備で被害の危険を減らすことができる。",
+        "grammar_note": "Although は譲歩。動名詞 Preparing が主語。"
+      },
+      "vocabulary": [
+        {
+          "word": "claim",
+          "ipa": "kleɪm",
+          "katakana": "クレイム",
+          "meaning": "主張"
+        },
+        {
+          "word": "support",
+          "ipa": "səˈpɔrt",
+          "katakana": "サポート",
+          "meaning": "裏付ける"
+        },
+        {
+          "word": "example",
+          "ipa": "ɪgˈzæmpəl",
+          "katakana": "イグザムパル",
+          "meaning": "例"
+        },
+        {
+          "word": "reason",
+          "ipa": "ˈrizən",
+          "katakana": "リーザン",
+          "meaning": "理由"
+        },
+        {
+          "word": "conclude",
+          "ipa": "kənˈklud",
+          "katakana": "コンクルード",
+          "meaning": "結論づける"
+        },
+        {
+          "word": "in my opinion",
+          "ipa": "ɪn maɪ əˈpɪnjən",
+          "katakana": "イン　マイ　アピンヤン",
+          "meaning": "私の意見では"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 46,
+      "topic": "英作文モデル⑨：両論をまとめる",
+      "type": "writing_model",
+      "sentence": {
+        "en": "Although new technology may be convenient, we should also consider its cost and safety.",
+        "ja": "新しい技術は便利かもしれないが、その費用と安全性も考えるべきだ。",
+        "grammar_note": "英作文モデル。Although で譲歩し、also で反対の視点を加える。"
+      },
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "ipa": "ˌvɑlənˈtɪr",
+          "katakana": "ボランティア",
+          "meaning": "ボランティア"
+        },
+        {
+          "word": "donation",
+          "ipa": "doʊˈneɪʃən",
+          "katakana": "ドウネイシャン",
+          "meaning": "寄付"
+        },
+        {
+          "word": "local",
+          "ipa": "ˈloʊkəl",
+          "katakana": "ロウカル",
+          "meaning": "地域の"
+        },
+        {
+          "word": "neighbor",
+          "ipa": "ˈneɪbər",
+          "katakana": "ネイバー",
+          "meaning": "近隣の人"
+        },
+        {
+          "word": "mutual aid",
+          "ipa": "mˈjuʧuəl eɪd",
+          "katakana": "ミューチュアル　エイド",
+          "meaning": "相互扶助"
+        },
+        {
+          "word": "public service",
+          "ipa": "ˈpəblɪk ˈsərvɪs",
+          "katakana": "パブリク　サーヴァス",
+          "meaning": "公共サービス"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 47,
+      "topic": "根拠で主張する",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "I support this plan because the evidence shows that it can protect more people.",
+        "ja": "根拠がより多くの人を守れると示しているので、私はこの計画を支持する。",
+        "grammar_note": "because で理由。that 節が shows の目的語。"
+      },
+      "vocabulary": [
+        {
+          "word": "equal",
+          "ipa": "ˈikwəl",
+          "katakana": "イークワル",
+          "meaning": "平等な"
+        },
+        {
+          "word": "discrimination",
+          "ipa": "dɪˌskrɪməˈneɪʃən",
+          "katakana": "ディスクリミネーション",
+          "meaning": "差別"
+        },
+        {
+          "word": "right",
+          "ipa": "raɪt",
+          "katakana": "ライト",
+          "meaning": "権利"
+        },
+        {
+          "word": "accessibility",
+          "ipa": "ˌæksɛsəˈbɪlɪti",
+          "katakana": "アクセシビリティ",
+          "meaning": "利用しやすさ"
+        },
+        {
+          "word": "include",
+          "ipa": "ˌɪnˈklud",
+          "katakana": "インクルード",
+          "meaning": "含める"
+        },
+        {
+          "word": "respect",
+          "ipa": "rɪˈspɛkt",
+          "katakana": "リスペクト",
+          "meaning": "尊重する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 48,
+      "topic": "2024 A-way · 言語と文化",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "The Pirahã language uses few exact number words, but its speakers can estimate small amounts.",
+        "ja": "ピラハ語には正確な数を表す語がほとんどないが、話者は少量を推定できる。",
+        "grammar_note": "but で対比。動詞 estimate を読解語彙にする。"
+      },
+      "vocabulary": [
+        {
+          "word": "innovation",
+          "ipa": "ˌɪnəˈveɪʃən",
+          "katakana": "イノベーション",
+          "meaning": "革新"
+        },
+        {
+          "word": "technology",
+          "ipa": "tɛkˈnɑləʤi",
+          "katakana": "テクノロジー",
+          "meaning": "技術"
+        },
+        {
+          "word": "regulation",
+          "ipa": "ˌrɛgjəˈleɪʃən",
+          "katakana": "レギュレーション",
+          "meaning": "規制"
+        },
+        {
+          "word": "pilot project",
+          "ipa": "ˈpaɪlət ˈprɑʤɛkt",
+          "katakana": "パイラト　プーラジェクト",
+          "meaning": "試験的事業"
+        },
+        {
+          "word": "affordable",
+          "ipa": "əˈfɔrdəbəl",
+          "katakana": "アフォーダブル",
+          "meaning": "手頃な"
+        },
+        {
+          "word": "long-term",
+          "ipa": "lɔŋtərm",
+          "katakana": "ローング　ターム",
+          "meaning": "長期的な"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 49,
+      "topic": "数と必要性・仮定法",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "If a community rarely needed exact counting, approximate quantities might be enough for daily life.",
+        "ja": "地域社会で正確な計数がほとんど必要でなければ、日常にはおおよその量で十分かもしれない。",
+        "grammar_note": "If + 過去形, might + 原形。仮定法過去。"
+      },
+      "vocabulary": [
+        {
+          "word": "food security",
+          "ipa": "fud sɪˈkjʊrəti",
+          "katakana": "フード　シクユラチー",
+          "meaning": "食料安全保障"
+        },
+        {
+          "word": "crop",
+          "ipa": "krɑp",
+          "katakana": "クーラプ",
+          "meaning": "作物"
+        },
+        {
+          "word": "harvest",
+          "ipa": "ˈhɑrvəst",
+          "katakana": "ハーヴァスト",
+          "meaning": "収穫"
+        },
+        {
+          "word": "sustainable",
+          "ipa": "səˈsteɪnəbəl",
+          "katakana": "サスーテイナバル",
+          "meaning": "持続可能な"
+        },
+        {
+          "word": "resource",
+          "ipa": "ˈrisɔrs",
+          "katakana": "リソース",
+          "meaning": "資源"
+        },
+        {
+          "word": "shortage",
+          "ipa": "ˈʃɔrtɪʤ",
+          "katakana": "ショーータジ",
+          "meaning": "不足"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 50,
+      "topic": "言語の多様性・関係詞",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "A language that is different from our own can show us another way of seeing the world.",
+        "ja": "自分たちの言語と異なる言語は、世界を見る別の方法を教えてくれることがある。",
+        "grammar_note": "that が a language を説明。"
+      },
+      "vocabulary": [
+        {
+          "word": "warning",
+          "ipa": "ˈwɔrnɪŋ",
+          "katakana": "ワーニング",
+          "meaning": "警報"
+        },
+        {
+          "word": "evacuate",
+          "ipa": "ɪˈvækjəˌeɪt",
+          "katakana": "イバキュエイト",
+          "meaning": "避難する"
+        },
+        {
+          "word": "emergency supplies",
+          "ipa": "ˈimərʤənsi səˈplaɪz",
+          "katakana": "イマージャンシー　サプライズ",
+          "meaning": "緊急物資"
+        },
+        {
+          "word": "forecast",
+          "ipa": "ˈfɔrˌkæst",
+          "katakana": "フォーーカスト",
+          "meaning": "予報"
+        },
+        {
+          "word": "preparedness",
+          "ipa": "priˈpɛrədnəs",
+          "katakana": "プリペアドネス",
+          "meaning": "備え"
+        },
+        {
+          "word": "recover",
+          "ipa": "rɪˈkəvər",
+          "katakana": "リカヴァー",
+          "meaning": "復旧する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 51,
+      "topic": "文化と言語・譲歩",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Although widely spoken languages help people communicate, smaller languages also carry cultural knowledge.",
+        "ja": "広く話される言語は人々の意思疎通に役立つが、小規模な言語も文化的知識を担っている。",
+        "grammar_note": "Although で譲歩し、also で追加。"
+      },
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "ipa": "pərˈspɛktɪv",
+          "katakana": "パースペクティブ",
+          "meaning": "視点"
+        },
+        {
+          "word": "counterargument",
+          "ipa": "ˈkaʊntərˌɑrgjəmənt",
+          "katakana": "カウンターアーギュメント",
+          "meaning": "反論"
+        },
+        {
+          "word": "respond",
+          "ipa": "rɪˈspɑnd",
+          "katakana": "リスーパンド",
+          "meaning": "応答する"
+        },
+        {
+          "word": "persuasive",
+          "ipa": "pərsˈweɪsɪv",
+          "katakana": "パースエイシブ",
+          "meaning": "説得力のある"
+        },
+        {
+          "word": "well-being",
+          "ipa": "wɛlbiɪŋ",
+          "katakana": "ウェル　ビーイング",
+          "meaning": "幸福"
+        },
+        {
+          "word": "make a difference",
+          "ipa": "meɪk ə ˈdɪfərəns",
+          "katakana": "メイク　ア　ディファーアンス",
+          "meaning": "変化をもたらす"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 52,
+      "topic": "自由英作文・異なる意見",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "If a classmate disagreed, I would listen first and then explain my view with evidence.",
+        "ja": "クラスメートが反対したら、まず話を聞き、その後根拠を添えて自分の考えを説明する。",
+        "grammar_note": "仮定法過去。意見への応答の型。"
+      },
+      "vocabulary": [
+        {
+          "word": "fact",
+          "ipa": "fækt",
+          "katakana": "ファクト",
+          "meaning": "事実"
+        },
+        {
+          "word": "forecast",
+          "ipa": "ˈfɔrˌkæst",
+          "katakana": "フォーーカスト",
+          "meaning": "予測"
+        },
+        {
+          "word": "measure",
+          "ipa": "ˈmɛʒər",
+          "katakana": "メジャー",
+          "meaning": "測定する"
+        },
+        {
+          "word": "likely",
+          "ipa": "ˈlaɪkli",
+          "katakana": "ライクリー",
+          "meaning": "可能性が高い"
+        },
+        {
+          "word": "uncertain",
+          "ipa": "ənˈsərtən",
+          "katakana": "アンサータン",
+          "meaning": "不確かな"
+        },
+        {
+          "word": "prepare",
+          "ipa": "priˈpɛr",
+          "katakana": "プーリーッペ",
+          "meaning": "備える"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 53,
+      "topic": "英作文モデル⑩：結びの一文",
+      "type": "writing_model",
+      "sentence": {
+        "en": "For these reasons, I believe that our school should keep this rule and improve it step by step.",
+        "ja": "これらの理由から、私たちの学校はこの規則を続け、少しずつ改善すべきだと思う。",
+        "grammar_note": "英作文モデル。For these reasons, I believe that ... で結論をまとめる。"
+      },
+      "vocabulary": [
+        {
+          "word": "collaborate",
+          "ipa": "kəˈlæbərˌeɪt",
+          "katakana": "カラバーエイト",
+          "meaning": "協力する"
+        },
+        {
+          "word": "institution",
+          "ipa": "ˌɪnstɪˈtuʃən",
+          "katakana": "インスティテューション",
+          "meaning": "機関"
+        },
+        {
+          "word": "scientific",
+          "ipa": "ˌsaɪənˈtɪfɪk",
+          "katakana": "サイエンティフィック",
+          "meaning": "科学的な"
+        },
+        {
+          "word": "public health",
+          "ipa": "ˈpəblɪk hɛlθ",
+          "katakana": "パブリク　ヘルス",
+          "meaning": "公衆衛生"
+        },
+        {
+          "word": "policy",
+          "ipa": "ˈpɑləsi",
+          "katakana": "パラシー",
+          "meaning": "政策"
+        },
+        {
+          "word": "protect",
+          "ipa": "prəˈtɛkt",
+          "katakana": "プーラテクト",
+          "meaning": "守る"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    },
+    {
+      "day": 54,
+      "topic": "2026 news skills · compare reports",
+      "type": "reading_grammar",
+      "sentence": {
+        "en": "Although two reports may describe the same event, they can emphasize different details.",
+        "ja": "2つの報告が同じ出来事を扱っていても、異なる点を強調する場合がある。",
+        "grammar_note": "Although は譲歩。「同じ出来事」と「異なる強調点」を対比。"
+      },
+      "vocabulary": [
+        {
+          "word": "appropriate",
+          "ipa": "əˈproʊpriˌeɪt",
+          "katakana": "アプロプリエイト",
+          "meaning": "適切な"
+        },
+        {
+          "word": "human judgment",
+          "ipa": "ˈjumən ˈʤəʤmənt",
+          "katakana": "ヒューマン　ジャッジメント",
+          "meaning": "人間の判断"
+        },
+        {
+          "word": "access",
+          "ipa": "ˈækˌsɛs",
+          "katakana": "アクセス",
+          "meaning": "利用機会"
+        },
+        {
+          "word": "privacy",
+          "ipa": "ˈpraɪvəsi",
+          "katakana": "プライバシー",
+          "meaning": "プライバシー"
+        },
+        {
+          "word": "challenge",
+          "ipa": "ˈʧælənʤ",
+          "katakana": "チャレンジ",
+          "meaning": "異議を唱える"
+        },
+        {
+          "word": "explain",
+          "ipa": "ɪkˈspleɪn",
+          "katakana": "イクスプレイン",
+          "meaning": "説明する"
+        }
+      ],
+      "check_30s": [
+        "例文のターゲット構文を指で示す。",
+        "例文を隠して、意味を保ったまま英語で言う。",
+        "最後に、文法ポイントをひとことで説明する。"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "absorb carbon dioxide",
+      "ipa": "əbˈzɔrb ˈkɑrbən daɪˈɑkˌsaɪd",
+      "katakana": "アブソーブ　カーボン　ダイオキサイド",
+      "meaning": "二酸化炭素を吸収する",
+      "days": [
+        7
+      ]
+    },
+    {
+      "word": "access",
+      "ipa": "ˈækˌsɛs",
+      "katakana": "アクセス",
+      "meaning": "利用機会",
+      "days": [
+        40,
+        54
+      ]
+    },
+    {
+      "word": "access to",
+      "ipa": "ˈækˌsɛs tɪ",
+      "katakana": "アクセス　トゥ",
+      "meaning": "〜を利用する機会",
+      "days": [
+        5
+      ]
+    },
+    {
+      "word": "accessibility",
+      "ipa": "ˌæksɛsəˈbɪlɪti",
+      "katakana": "アクセシビリティ",
+      "meaning": "利用しやすさ",
+      "days": [
+        47
+      ]
+    },
+    {
+      "word": "accommodation",
+      "ipa": "əˌkɑməˈdeɪʃən",
+      "katakana": "アコモデーション",
+      "meaning": "宿泊施設",
+      "days": [
+        22
+      ]
+    },
+    {
+      "word": "according to",
+      "ipa": "əˈkɔrdɪŋ tɪ",
+      "katakana": "アコーディング　トゥ",
+      "meaning": "〜によれば",
+      "days": [
+        41
+      ]
+    },
+    {
+      "word": "adaptation",
+      "ipa": "ˌædəpˈteɪʃən",
+      "katakana": "アダプテイシャン",
+      "meaning": "適応",
+      "days": [
+        31
+      ]
+    },
+    {
+      "word": "afford",
+      "ipa": "əˈfɔrd",
+      "katakana": "アフォード",
+      "meaning": "買う余裕がある",
+      "days": [
+        18
+      ]
+    },
+    {
+      "word": "affordable",
+      "ipa": "əˈfɔrdəbəl",
+      "katakana": "アフォーダブル",
+      "meaning": "手頃な",
+      "days": [
+        48
+      ]
+    },
+    {
+      "word": "age-appropriate",
+      "ipa": "eɪʤəˈproʊpriˌeɪt",
+      "katakana": "エイジ　アプロプリエイト",
+      "meaning": "年齢に適した",
+      "days": [
+        35
+      ]
+    },
+    {
+      "word": "agriculture",
+      "ipa": "ˈægrɪˌkəlʧər",
+      "katakana": "アグリカルチャー",
+      "meaning": "農業",
+      "days": [
+        27
+      ]
+    },
+    {
+      "word": "AI literacy",
+      "ipa": "eɪaɪ ˈlɪtərəsi",
+      "katakana": "アイ　リターアシー",
+      "meaning": "AIリテラシー",
+      "days": [
+        33
+      ]
+    },
+    {
+      "word": "air taxi",
+      "ipa": "ɛr ˈtæksi",
+      "katakana": "エアタクシー",
+      "meaning": "空飛ぶタクシー",
+      "days": [
+        18
+      ]
+    },
+    {
+      "word": "aircraft",
+      "ipa": "ˈɛrˌkræft",
+      "katakana": "エアクラフト",
+      "meaning": "航空機",
+      "days": [
+        18
+      ]
+    },
+    {
+      "word": "allay concerns",
+      "ipa": "əˈleɪ kənˈsərnz",
+      "katakana": "アレイ　カンサーンズ",
+      "meaning": "懸念を和らげる",
+      "days": [
+        19
+      ]
+    },
+    {
+      "word": "alternative",
+      "ipa": "ɔlˈtərnətɪv",
+      "katakana": "オルタナティブ",
+      "meaning": "代替品",
+      "days": [
+        14
+      ]
+    },
+    {
+      "word": "although",
+      "ipa": "ˌɔlˈðoʊ",
+      "katakana": "オールゾウ",
+      "meaning": "〜だけれども",
+      "days": [
+        43
+      ]
+    },
+    {
+      "word": "analyze",
+      "ipa": "ˈænəˌlaɪz",
+      "katakana": "アナライズ",
+      "meaning": "分析する",
+      "days": [
+        24
+      ]
+    },
+    {
+      "word": "animal health",
+      "ipa": "ˈænəməl hɛlθ",
+      "katakana": "アナマル　ヘルス",
+      "meaning": "動物の健康",
+      "days": [
+        38
+      ]
+    },
+    {
+      "word": "announce",
+      "ipa": "əˈnaʊns",
+      "katakana": "アナウンス",
+      "meaning": "発表する",
+      "days": [
+        41
+      ]
+    },
+    {
+      "word": "appropriate",
+      "ipa": "əˈproʊpriˌeɪt",
+      "katakana": "アプロプリエイト",
+      "meaning": "適切な",
+      "days": [
+        54
+      ]
+    },
+    {
+      "word": "art supplies",
+      "ipa": "ɑrt səˈplaɪz",
+      "katakana": "アート　サプライズ",
+      "meaning": "画材",
+      "days": [
+        5
+      ]
+    },
+    {
+      "word": "artificial intelligence",
+      "ipa": "ˌɑrtəˈfɪʃəl ˌɪnˈtɛləʤəns",
+      "katakana": "アータフィシャル　インテラジャンス",
+      "meaning": "人工知能",
+      "days": [
+        33
+      ]
+    },
+    {
+      "word": "as a result",
+      "ipa": "ɛz ə rɪˈzəlt",
+      "katakana": "アズ　ア　リザルト",
+      "meaning": "その結果",
+      "days": [
+        16,
+        28
+      ]
+    },
+    {
+      "word": "assemble",
+      "ipa": "əˈsɛmbəl",
+      "katakana": "アセンブル",
+      "meaning": "組み立てる",
+      "days": [
+        3
+      ]
+    },
+    {
+      "word": "athlete",
+      "ipa": "ˈæθˌlit",
+      "katakana": "アスリート",
+      "meaning": "選手",
+      "days": [
+        22
+      ]
+    },
+    {
+      "word": "atmosphere",
+      "ipa": "ˈætməsˌfɪr",
+      "katakana": "アトモスフィア",
+      "meaning": "大気",
+      "days": [
+        7
+      ]
+    },
+    {
+      "word": "automated output",
+      "ipa": "ˈɔtəˌmeɪtɪd ˈaʊtˌpʊt",
+      "katakana": "オータメイチド　アウトプト",
+      "meaning": "自動生成された出力",
+      "days": [
+        33
+      ]
+    },
+    {
+      "word": "average",
+      "ipa": "ˈævərɪʤ",
+      "katakana": "アベレージ",
+      "meaning": "平均",
+      "days": [
+        17,
+        42
+      ]
+    },
+    {
+      "word": "benefit",
+      "ipa": "ˈbɛnəfɪt",
+      "katakana": "ベナフィト",
+      "meaning": "利点",
+      "days": [
+        44
+      ]
+    },
+    {
+      "word": "bias",
+      "ipa": "baɪəs",
+      "katakana": "バイアス",
+      "meaning": "偏り",
+      "days": [
+        37
+      ]
+    },
+    {
+      "word": "bicultural",
+      "ipa": "ˌbaɪˈkʌltʃərəl",
+      "katakana": "バイカルチュラル",
+      "meaning": "二文化に属する",
+      "days": [
+        10
+      ]
+    },
+    {
+      "word": "bilingual",
+      "ipa": "baɪˈlɪŋgwəl",
+      "katakana": "バイリンググワル",
+      "meaning": "二言語を話す",
+      "days": [
+        10
+      ]
+    },
+    {
+      "word": "biodiversity",
+      "ipa": "ˌbaɪoʊdaɪˈvərsəti",
+      "katakana": "バイオダイバーシティ",
+      "meaning": "生物多様性",
+      "days": [
+        7
+      ]
+    },
+    {
+      "word": "bridge of understanding",
+      "ipa": "brɪʤ əv ˌəndərˈstændɪŋ",
+      "katakana": "ブリッジ　オブ　アンダースタンディング",
+      "meaning": "理解の架け橋",
+      "days": [
+        2
+      ]
+    },
+    {
+      "word": "carbon emissions",
+      "ipa": "ˈkɑrbən ɪˈmɪʃənz",
+      "katakana": "カーボン　エミッションズ",
+      "meaning": "二酸化炭素排出",
+      "days": [
+        8
+      ]
+    },
+    {
+      "word": "carbon removal",
+      "ipa": "ˈkɑrbən rɪˈmuvəl",
+      "katakana": "カーバン　リムーヴァル",
+      "meaning": "炭素除去",
+      "days": [
+        30
+      ]
+    },
+    {
+      "word": "catastrophic",
+      "ipa": "ˌkætəˈstrɑfɪk",
+      "katakana": "カタッストラフィク",
+      "meaning": "壊滅的な",
+      "days": [
+        12
+      ]
+    },
+    {
+      "word": "cause",
+      "ipa": "kɔz",
+      "katakana": "カズ",
+      "meaning": "原因",
+      "days": [
+        43
+      ]
+    },
+    {
+      "word": "celebrate",
+      "ipa": "ˈsɛləˌbreɪt",
+      "katakana": "セレブレイト",
+      "meaning": "祝う",
+      "days": [
+        1
+      ]
+    },
+    {
+      "word": "challenge",
+      "ipa": "ˈʧælənʤ",
+      "katakana": "チャレンジ",
+      "meaning": "課題",
+      "days": [
+        23,
+        54
+      ]
+    },
+    {
+      "word": "charity",
+      "ipa": "ˈʧɛrɪti",
+      "katakana": "チャリティー",
+      "meaning": "慈善団体",
+      "days": [
+        5
+      ]
+    },
+    {
+      "word": "claim",
+      "ipa": "kleɪm",
+      "katakana": "クレイム",
+      "meaning": "主張する",
+      "days": [
+        15,
+        45
+      ]
+    },
+    {
+      "word": "classroom",
+      "ipa": "ˈklæsˌrum",
+      "katakana": "クーラスルーム",
+      "meaning": "教室",
+      "days": [
+        21
+      ]
+    },
+    {
+      "word": "cognitive work",
+      "ipa": "ˈkɑgnɪtɪv wərk",
+      "katakana": "カグニチヴ　ワーク",
+      "meaning": "認知的な作業",
+      "days": [
+        34
+      ]
+    },
+    {
+      "word": "collaborate",
+      "ipa": "kəˈlæbərˌeɪt",
+      "katakana": "カラバーエイト",
+      "meaning": "協力する",
+      "days": [
+        53
+      ]
+    },
+    {
+      "word": "collaboration",
+      "ipa": "kəˌlæbərˈeɪʃən",
+      "katakana": "コラボレーション",
+      "meaning": "協力",
+      "days": [
+        38
+      ]
+    },
+    {
+      "word": "collective action",
+      "ipa": "kəˈlɛktɪv ˈækʃən",
+      "katakana": "カレクチヴ　アクシャン",
+      "meaning": "共同の行動",
+      "days": [
+        32
+      ]
+    },
+    {
+      "word": "combine",
+      "ipa": "ˈkɑmbaɪn",
+      "katakana": "コンバイン",
+      "meaning": "組み合わせる",
+      "days": [
+        13
+      ]
+    },
+    {
+      "word": "communication",
+      "ipa": "kəmˌjunəˈkeɪʃən",
+      "katakana": "コミュニケーション",
+      "meaning": "意思疎通",
+      "days": [
+        2
+      ]
+    },
+    {
+      "word": "community",
+      "ipa": "kəmˈjunɪti",
+      "katakana": "コミュニティ",
+      "meaning": "地域社会",
+      "days": [
+        22,
+        28
+      ]
+    },
+    {
+      "word": "community project",
+      "ipa": "kəmˈjunɪti ˈprɑʤɛkt",
+      "katakana": "コミュニティ　プロジェクト",
+      "meaning": "地域プロジェクト",
+      "days": [
+        8
+      ]
+    },
+    {
+      "word": "compared with",
+      "ipa": "kəmˈpɛrd wɪθ",
+      "katakana": "カムペド　ウィズ",
+      "meaning": "〜と比べて",
+      "days": [
+        42
+      ]
+    },
+    {
+      "word": "concentrate",
+      "ipa": "ˈkɑnsənˌtreɪt",
+      "katakana": "コンセントレイト",
+      "meaning": "集中する",
+      "days": [
+        15
+      ]
+    },
+    {
+      "word": "conclude",
+      "ipa": "kənˈklud",
+      "katakana": "コンクルード",
+      "meaning": "結論づける",
+      "days": [
+        45
+      ]
+    },
+    {
+      "word": "confidence",
+      "ipa": "ˈkɑnfədɛns",
+      "katakana": "コンフィデンス",
+      "meaning": "自信",
+      "days": [
+        23
+      ]
+    },
+    {
+      "word": "confirm",
+      "ipa": "kənˈfərm",
+      "katakana": "カンファーム",
+      "meaning": "確認する",
+      "days": [
+        41
+      ]
+    },
+    {
+      "word": "consequence",
+      "ipa": "ˈkɑnsəkwəns",
+      "katakana": "コンセクエンス",
+      "meaning": "結果",
+      "days": [
+        12
+      ]
+    },
+    {
+      "word": "consultation",
+      "ipa": "ˌkɑnsəlˈteɪʃən",
+      "katakana": "カンサルテイシャン",
+      "meaning": "意見募集・協議",
+      "days": [
+        36
+      ]
+    },
+    {
+      "word": "contribute to",
+      "ipa": "kənˈtrɪbjut tɪ",
+      "katakana": "コントリビュート　トゥ",
+      "meaning": "〜の一因となる",
+      "days": [
+        43
+      ]
+    },
+    {
+      "word": "counterargument",
+      "ipa": "ˈkaʊntərˌɑrgjəmənt",
+      "katakana": "カウンターアーギュメント",
+      "meaning": "反論",
+      "days": [
+        51
+      ]
+    },
+    {
+      "word": "critical thinking",
+      "ipa": "ˈkrɪtɪkəl ˈθɪŋkɪŋ",
+      "katakana": "クーリチカル　シングキング",
+      "meaning": "批判的思考",
+      "days": [
+        33
+      ]
+    },
+    {
+      "word": "crop",
+      "ipa": "krɑp",
+      "katakana": "クーラプ",
+      "meaning": "作物",
+      "days": [
+        49
+      ]
+    },
+    {
+      "word": "cut emissions",
+      "ipa": "kət ɪˈmɪʃənz",
+      "katakana": "カト　イミシャンズ",
+      "meaning": "排出量を削減する",
+      "days": [
+        30
+      ]
+    },
+    {
+      "word": "damage",
+      "ipa": "ˈdæmɪʤ",
+      "katakana": "ダメージ",
+      "meaning": "被害",
+      "days": [
+        6
+      ]
+    },
+    {
+      "word": "data",
+      "ipa": "ˈdætə",
+      "katakana": "デイタ",
+      "meaning": "データ",
+      "days": [
+        20
+      ]
+    },
+    {
+      "word": "decision maker",
+      "ipa": "dɪˈsɪʒən ˈmeɪkər",
+      "katakana": "デシジョン　メイカー",
+      "meaning": "意思決定者",
+      "days": [
+        11
+      ]
+    },
+    {
+      "word": "decline",
+      "ipa": "dɪˈklaɪn",
+      "katakana": "ディクライン",
+      "meaning": "減少する",
+      "days": [
+        16,
+        29
+      ]
+    },
+    {
+      "word": "deliberate",
+      "ipa": "dɪˈlɪbərˌeɪt",
+      "katakana": "ディリバーアト",
+      "meaning": "慎重に検討する",
+      "days": [
+        37
+      ]
+    },
+    {
+      "word": "destroy",
+      "ipa": "dɪˈstrɔɪ",
+      "katakana": "デストロイ",
+      "meaning": "破壊する",
+      "days": [
+        8
+      ]
+    },
+    {
+      "word": "dialogue",
+      "ipa": "ˈdaɪəˌlɔg",
+      "katakana": "ダイアローグ",
+      "meaning": "対話",
+      "days": [
+        20
+      ]
+    },
+    {
+      "word": "dilute",
+      "ipa": "dɪˈlut",
+      "katakana": "ダイリュート",
+      "meaning": "薄める",
+      "days": [
+        19
+      ]
+    },
+    {
+      "word": "discrimination",
+      "ipa": "dɪˌskrɪməˈneɪʃən",
+      "katakana": "ディスクリミネーション",
+      "meaning": "差別",
+      "days": [
+        47
+      ]
+    },
+    {
+      "word": "distracting",
+      "ipa": "dɪˈstræktɪŋ",
+      "katakana": "ディストラクチング",
+      "meaning": "気が散る",
+      "days": [
+        21
+      ]
+    },
+    {
+      "word": "donate",
+      "ipa": "ˈdoʊˌneɪt",
+      "katakana": "ドネイト",
+      "meaning": "寄付する",
+      "days": [
+        5
+      ]
+    },
+    {
+      "word": "donation",
+      "ipa": "doʊˈneɪʃən",
+      "katakana": "ドウネイシャン",
+      "meaning": "寄付",
+      "days": [
+        46
+      ]
+    },
+    {
+      "word": "drawback",
+      "ipa": "ˈdrɔˌbæk",
+      "katakana": "ドゥーローバク",
+      "meaning": "欠点",
+      "days": [
+        44
+      ]
+    },
+    {
+      "word": "drought",
+      "ipa": "draʊt",
+      "katakana": "ドゥーラウト",
+      "meaning": "干ばつ",
+      "days": [
+        25
+      ]
+    },
+    {
+      "word": "early-warning system",
+      "ipa": "ˈərliˈwɔrnɪŋ ˈsɪstəm",
+      "katakana": "アーリー　ワーニング　シスータム",
+      "meaning": "早期警戒システム",
+      "days": [
+        27
+      ]
+    },
+    {
+      "word": "ecosystem",
+      "ipa": "ˈikoʊˌsɪstəm",
+      "katakana": "エコシステム",
+      "meaning": "生態系",
+      "days": [
+        7,
+        31,
+        38
+      ]
+    },
+    {
+      "word": "efficient",
+      "ipa": "ɪˈfɪʃənt",
+      "katakana": "エフィシエント",
+      "meaning": "効率的な",
+      "days": [
+        16
+      ]
+    },
+    {
+      "word": "El Niño",
+      "ipa": "el ˈninjoʊ",
+      "katakana": "エルニーニョ",
+      "meaning": "エルニーニョ",
+      "days": [
+        25
+      ]
+    },
+    {
+      "word": "elderly",
+      "ipa": "ˈɛldərli",
+      "katakana": "エルダリー",
+      "meaning": "高齢の",
+      "days": [
+        6
+      ]
+    },
+    {
+      "word": "emergency response",
+      "ipa": "ˈimərʤənsi rɪˈspɑns",
+      "katakana": "エマージェンシー　レスポンス",
+      "meaning": "緊急対応",
+      "days": [
+        28
+      ]
+    },
+    {
+      "word": "emergency supplies",
+      "ipa": "ˈimərʤənsi səˈplaɪz",
+      "katakana": "イマージャンシー　サプライズ",
+      "meaning": "緊急物資",
+      "days": [
+        50
+      ]
+    },
+    {
+      "word": "emissions",
+      "ipa": "ɪˈmɪʃənz",
+      "katakana": "イミシャンズ",
+      "meaning": "排出量",
+      "days": [
+        30
+      ]
+    },
+    {
+      "word": "emissions reduction",
+      "ipa": "ɪˈmɪʃənz rɪˈdəkʃən",
+      "katakana": "イミシャンズ　ラダクシャン",
+      "meaning": "排出削減",
+      "days": [
+        14
+      ]
+    },
+    {
+      "word": "engineer",
+      "ipa": "ˈɛnʤəˈnɪr",
+      "katakana": "エンジニア",
+      "meaning": "技術者",
+      "days": [
+        11
+      ]
+    },
+    {
+      "word": "environmental standard",
+      "ipa": "ɪnˌvaɪrənˈmɛnəl ˈstændərd",
+      "katakana": "インヴァイランメンタル　スータンダード",
+      "meaning": "環境基準",
+      "days": [
+        22
+      ]
+    },
+    {
+      "word": "environmentally friendly",
+      "ipa": "ɪnˌvaɪrənˈmɛnəli ˈfrɛndli",
+      "katakana": "エンバイロンメンタリー　フレンドリー",
+      "meaning": "環境にやさしい",
+      "days": [
+        8
+      ]
+    },
+    {
+      "word": "equal",
+      "ipa": "ˈikwəl",
+      "katakana": "イークワル",
+      "meaning": "平等な",
+      "days": [
+        47
+      ]
+    },
+    {
+      "word": "equal opportunity",
+      "ipa": "ˈikwəl ˌɑpərˈtunəti",
+      "katakana": "イコール　オポチュニティ",
+      "meaning": "平等な機会",
+      "days": [
+        9
+      ]
+    },
+    {
+      "word": "equity",
+      "ipa": "ˈɛkwəti",
+      "katakana": "エクワチー",
+      "meaning": "公平性",
+      "days": [
+        32
+      ]
+    },
+    {
+      "word": "ethical",
+      "ipa": "ˈɛθɪkəl",
+      "katakana": "エシカル",
+      "meaning": "倫理的な",
+      "days": [
+        35
+      ]
+    },
+    {
+      "word": "evacuate",
+      "ipa": "ɪˈvækjəˌeɪt",
+      "katakana": "イバキュエイト",
+      "meaning": "避難する",
+      "days": [
+        50
+      ]
+    },
+    {
+      "word": "evidence",
+      "ipa": "ˈɛvədəns",
+      "katakana": "エビデンス",
+      "meaning": "証拠・根拠",
+      "days": [
+        12,
+        37,
+        39
+      ]
+    },
+    {
+      "word": "example",
+      "ipa": "ɪgˈzæmpəl",
+      "katakana": "イグザムパル",
+      "meaning": "例",
+      "days": [
+        45
+      ]
+    },
+    {
+      "word": "explain",
+      "ipa": "ɪkˈspleɪn",
+      "katakana": "イクスプレイン",
+      "meaning": "説明する",
+      "days": [
+        54
+      ]
+    },
+    {
+      "word": "express emotions",
+      "ipa": "ɪkˈsprɛs ˈɪˌmoʊʃənz",
+      "katakana": "イクスプレス　エモーションズ",
+      "meaning": "感情を表現する",
+      "days": [
+        5
+      ]
+    },
+    {
+      "word": "extreme heat",
+      "ipa": "ɪkˈstrim hit",
+      "katakana": "エクストリーム　ヒート",
+      "meaning": "極端な暑さ",
+      "days": [
+        25
+      ]
+    },
+    {
+      "word": "fact",
+      "ipa": "fækt",
+      "katakana": "ファクト",
+      "meaning": "事実",
+      "days": [
+        52
+      ]
+    },
+    {
+      "word": "fact-check",
+      "ipa": "fæktʧɛk",
+      "katakana": "ファクト　チェク",
+      "meaning": "事実確認",
+      "days": [
+        37
+      ]
+    },
+    {
+      "word": "feature story",
+      "ipa": "ˈfiʧər ˈstɔri",
+      "katakana": "フィーチャー　ストーリー",
+      "meaning": "特集記事",
+      "days": [
+        3
+      ]
+    },
+    {
+      "word": "finance",
+      "ipa": "ˈfaɪˌnæns",
+      "katakana": "ファイナンス",
+      "meaning": "資金",
+      "days": [
+        32
+      ]
+    },
+    {
+      "word": "fisheries",
+      "ipa": "ˈfɪʃəriz",
+      "katakana": "フィシャーイーズ",
+      "meaning": "漁業",
+      "days": [
+        20
+      ]
+    },
+    {
+      "word": "flood",
+      "ipa": "fləd",
+      "katakana": "フーラド",
+      "meaning": "洪水",
+      "days": [
+        25
+      ]
+    },
+    {
+      "word": "floppy disk",
+      "ipa": "ˈflɑpi dɪsk",
+      "katakana": "フロッピー　ディスク",
+      "meaning": "フロッピーディスク",
+      "days": [
+        3
+      ]
+    },
+    {
+      "word": "food security",
+      "ipa": "fud sɪˈkjʊrəti",
+      "katakana": "フード　シクユラチー",
+      "meaning": "食料安全保障",
+      "days": [
+        49
+      ]
+    },
+    {
+      "word": "forecast",
+      "ipa": "ˈfɔrˌkæst",
+      "katakana": "フォーーカスト",
+      "meaning": "予報",
+      "days": [
+        25,
+        50,
+        52
+      ]
+    },
+    {
+      "word": "framework",
+      "ipa": "ˈfreɪmˌwərk",
+      "katakana": "フレームワーク",
+      "meaning": "枠組み",
+      "days": [
+        36
+      ]
+    },
+    {
+      "word": "frustration",
+      "ipa": "frəˈstreɪʃən",
+      "katakana": "フラストレーション",
+      "meaning": "いらだち",
+      "days": [
+        2
+      ]
+    },
+    {
+      "word": "future",
+      "ipa": "fˈjuʧər",
+      "katakana": "フューチャー",
+      "meaning": "未来",
+      "days": [
+        4
+      ]
+    },
+    {
+      "word": "gender inequality",
+      "ipa": "ˈʤɛndər ˌɪnɪkˈwɑləti",
+      "katakana": "ジェンダー　イネクオリティ",
+      "meaning": "ジェンダー不平等",
+      "days": [
+        9
+      ]
+    },
+    {
+      "word": "gesture",
+      "ipa": "ˈʤɛsʧər",
+      "katakana": "ジェスチャー",
+      "meaning": "身ぶり",
+      "days": [
+        2
+      ]
+    },
+    {
+      "word": "global temperature",
+      "ipa": "ˈgloʊbəl ˈtɛmpərəʧər",
+      "katakana": "グーロウバル　テンペラチャー",
+      "meaning": "地球全体の気温",
+      "days": [
+        29
+      ]
+    },
+    {
+      "word": "governance",
+      "ipa": "ˈgəvərnəns",
+      "katakana": "ガバナンス",
+      "meaning": "ガバナンス",
+      "days": [
+        32
+      ]
+    },
+    {
+      "word": "greenhouse gas",
+      "ipa": "ˈgrinˌhaʊs gæs",
+      "katakana": "グーリーンハウス　ガス",
+      "meaning": "温室効果ガス",
+      "days": [
+        13,
+        30
+      ]
+    },
+    {
+      "word": "harvest",
+      "ipa": "ˈhɑrvəst",
+      "katakana": "ハーヴァスト",
+      "meaning": "収穫",
+      "days": [
+        49
+      ]
+    },
+    {
+      "word": "headline",
+      "ipa": "ˈhɛˌdlaɪn",
+      "katakana": "ヘドライン",
+      "meaning": "見出し",
+      "days": [
+        24
+      ]
+    },
+    {
+      "word": "health care",
+      "ipa": "hɛlθ kɛr",
+      "katakana": "ヘルス　ケ",
+      "meaning": "医療",
+      "days": [
+        40
+      ]
+    },
+    {
+      "word": "health worker",
+      "ipa": "hɛlθ ˈwərkər",
+      "katakana": "ヘルス　ワーカー",
+      "meaning": "医療従事者",
+      "days": [
+        39
+      ]
+    },
+    {
+      "word": "heavy rainfall",
+      "ipa": "ˈhɛvi ˈreɪnˌfɔl",
+      "katakana": "ヘビー　レインフォール",
+      "meaning": "大雨",
+      "days": [
+        6
+      ]
+    },
+    {
+      "word": "hero",
+      "ipa": "ˈhɪroʊ",
+      "katakana": "ヒーロー",
+      "meaning": "英雄",
+      "days": [
+        1
+      ]
+    },
+    {
+      "word": "hero’s journey",
+      "ipa": "ˈhɪroʊz ˈʤərni",
+      "katakana": "ヒーロー　ジャーニー",
+      "meaning": "英雄の旅",
+      "days": [
+        23
+      ]
+    },
+    {
+      "word": "historic event",
+      "ipa": "hɪˈstɔrɪk ɪˈvɛnt",
+      "katakana": "ヒストリック　イベント",
+      "meaning": "歴史的な出来事",
+      "days": [
+        1
+      ]
+    },
+    {
+      "word": "homeless shelter",
+      "ipa": "ˈhoʊmləs ˈʃɛltər",
+      "katakana": "ホームレス　シェルター",
+      "meaning": "ホームレス支援施設",
+      "days": [
+        5
+      ]
+    },
+    {
+      "word": "however",
+      "ipa": "ˌhaʊˈɛvər",
+      "katakana": "ハウエバー",
+      "meaning": "しかし",
+      "days": [
+        43
+      ]
+    },
+    {
+      "word": "human health",
+      "ipa": "ˈjumən hɛlθ",
+      "katakana": "フーマン　ヘルス",
+      "meaning": "人の健康",
+      "days": [
+        38
+      ]
+    },
+    {
+      "word": "human judgment",
+      "ipa": "ˈjumən ˈʤəʤmənt",
+      "katakana": "ヒューマン　ジャッジメント",
+      "meaning": "人間の判断",
+      "days": [
+        54
+      ]
+    },
+    {
+      "word": "humanitarian",
+      "ipa": "ˌjuˌmænəˈtɛriən",
+      "katakana": "ヒューマニタリアン",
+      "meaning": "人道支援の",
+      "days": [
+        27
+      ]
+    },
+    {
+      "word": "impact",
+      "ipa": "ˌɪmˈpækt",
+      "katakana": "イムパクト",
+      "meaning": "影響",
+      "days": [
+        28
+      ]
+    },
+    {
+      "word": "in a time of need",
+      "ipa": "ɪn ə taɪm əv nid",
+      "katakana": "イン　ア　タイム　アヴ　ニード",
+      "meaning": "困ったときに",
+      "days": [
+        6
+      ]
+    },
+    {
+      "word": "in contrast",
+      "ipa": "ɪn ˈkɑntræst",
+      "katakana": "イン　カントラスト",
+      "meaning": "対照的に",
+      "days": [
+        44
+      ]
+    },
+    {
+      "word": "in my opinion",
+      "ipa": "ɪn maɪ əˈpɪnjən",
+      "katakana": "イン　マイ　アピンヤン",
+      "meaning": "私の意見では",
+      "days": [
+        45
+      ]
+    },
+    {
+      "word": "in my view",
+      "ipa": "ɪn maɪ vju",
+      "katakana": "イン　マイ　ヴー",
+      "meaning": "私の考えでは",
+      "days": [
+        24
+      ]
+    },
+    {
+      "word": "include",
+      "ipa": "ˌɪnˈklud",
+      "katakana": "インクルード",
+      "meaning": "含める",
+      "days": [
+        47
+      ]
+    },
+    {
+      "word": "inclusive",
+      "ipa": "ˌɪnˈklusɪv",
+      "katakana": "インクルーシヴ",
+      "meaning": "包摂的な",
+      "days": [
+        32
+      ]
+    },
+    {
+      "word": "infection",
+      "ipa": "ˌɪnˈfɛkʃən",
+      "katakana": "インフェクション",
+      "meaning": "感染",
+      "days": [
+        40
+      ]
+    },
+    {
+      "word": "innovation",
+      "ipa": "ˌɪnəˈveɪʃən",
+      "katakana": "イノベーション",
+      "meaning": "革新",
+      "days": [
+        48
+      ]
+    },
+    {
+      "word": "institution",
+      "ipa": "ˌɪnstɪˈtuʃən",
+      "katakana": "インスティテューション",
+      "meaning": "機関",
+      "days": [
+        53
+      ]
+    },
+    {
+      "word": "intensify",
+      "ipa": "ˌɪnˈtɛnsɪˌfaɪ",
+      "katakana": "インテンサファイ",
+      "meaning": "強まる",
+      "days": [
+        26
+      ]
+    },
+    {
+      "word": "interactive",
+      "ipa": "ˌɪnərˈæktɪv",
+      "katakana": "インターアクチヴ",
+      "meaning": "双方向の",
+      "days": [
+        3
+      ]
+    },
+    {
+      "word": "irreversible",
+      "ipa": "ˌɪrɪˈvərsəbəl",
+      "katakana": "イリヴァーサバル",
+      "meaning": "不可逆的な",
+      "days": [
+        31
+      ]
+    },
+    {
+      "word": "issue",
+      "ipa": "ˈɪʃu",
+      "katakana": "イシュー",
+      "meaning": "号",
+      "days": [
+        4
+      ]
+    },
+    {
+      "word": "justice",
+      "ipa": "ˈʤəstɪs",
+      "katakana": "ジャスータス",
+      "meaning": "正義",
+      "days": [
+        32
+      ]
+    },
+    {
+      "word": "launch",
+      "ipa": "lɔnʧ",
+      "katakana": "ローンチ",
+      "meaning": "打ち上げる",
+      "days": [
+        11
+      ]
+    },
+    {
+      "word": "lead to",
+      "ipa": "lɛd tɪ",
+      "katakana": "レド　トゥー",
+      "meaning": "〜につながる",
+      "days": [
+        43
+      ]
+    },
+    {
+      "word": "learner",
+      "ipa": "ˈlərnər",
+      "katakana": "ラーナー",
+      "meaning": "学習者",
+      "days": [
+        35
+      ]
+    },
+    {
+      "word": "learning from home",
+      "ipa": "ˈlərnɪŋ frəm hoʊm",
+      "katakana": "ラーニング　フーラム　ホウム",
+      "meaning": "自宅学習",
+      "days": [
+        17
+      ]
+    },
+    {
+      "word": "learning outcome",
+      "ipa": "ˈlərnɪŋ ˈaʊtˌkəm",
+      "katakana": "ラーニング　アウトカム",
+      "meaning": "学習成果",
+      "days": [
+        34
+      ]
+    },
+    {
+      "word": "likelihood",
+      "ipa": "ˈlaɪkliˌhʊd",
+      "katakana": "ライクリーフド",
+      "meaning": "可能性",
+      "days": [
+        26
+      ]
+    },
+    {
+      "word": "likely",
+      "ipa": "ˈlaɪkli",
+      "katakana": "ライクリー",
+      "meaning": "可能性が高い",
+      "days": [
+        52
+      ]
+    },
+    {
+      "word": "local",
+      "ipa": "ˈloʊkəl",
+      "katakana": "ロウカル",
+      "meaning": "地域の",
+      "days": [
+        46
+      ]
+    },
+    {
+      "word": "long-term",
+      "ipa": "lɔŋtərm",
+      "katakana": "ローング　ターム",
+      "meaning": "長期的な",
+      "days": [
+        48
+      ]
+    },
+    {
+      "word": "low-lying coast",
+      "ipa": "loʊlaɪɪŋ koʊst",
+      "katakana": "ロウ　ライイング　コウスト",
+      "meaning": "低地の沿岸",
+      "days": [
+        31
+      ]
+    },
+    {
+      "word": "make a decision",
+      "ipa": "meɪk ə dɪˈsɪʒən",
+      "katakana": "メイク　ア　ディシジャン",
+      "meaning": "決定する",
+      "days": [
+        12
+      ]
+    },
+    {
+      "word": "make a difference",
+      "ipa": "meɪk ə ˈdɪfərəns",
+      "katakana": "メイク　ア　ディファーアンス",
+      "meaning": "変化をもたらす",
+      "days": [
+        51
+      ]
+    },
+    {
+      "word": "mealworm",
+      "ipa": "ˈmilwɜrm",
+      "katakana": "ミールワーム",
+      "meaning": "ミールワーム",
+      "days": [
+        13
+      ]
+    },
+    {
+      "word": "measure",
+      "ipa": "ˈmɛʒər",
+      "katakana": "メジャー",
+      "meaning": "測定する",
+      "days": [
+        52
+      ]
+    },
+    {
+      "word": "measurement",
+      "ipa": "ˈmɛʒərmənt",
+      "katakana": "メジャーマント",
+      "meaning": "測定",
+      "days": [
+        42
+      ]
+    },
+    {
+      "word": "medium",
+      "ipa": "ˈmidiəm",
+      "katakana": "ミディアム",
+      "meaning": "媒体",
+      "days": [
+        4
+      ]
+    },
+    {
+      "word": "mentor",
+      "ipa": "ˈmɛnˌtɔr",
+      "katakana": "メンター",
+      "meaning": "助言者",
+      "days": [
+        23
+      ]
+    },
+    {
+      "word": "misinformation",
+      "ipa": "ˌmɪsɪnfərˈmeɪʃən",
+      "katakana": "ミスインフォメーション",
+      "meaning": "誤情報",
+      "days": [
+        37
+      ]
+    },
+    {
+      "word": "misunderstand",
+      "ipa": "ˌmɪsəndərˈstænd",
+      "katakana": "ミサンダースータンド",
+      "meaning": "誤解する",
+      "days": [
+        2
+      ]
+    },
+    {
+      "word": "mitigation",
+      "ipa": "ˌmɪtɪˈgeɪʃən",
+      "katakana": "ミチゲイシャン",
+      "meaning": "緩和",
+      "days": [
+        31
+      ]
+    },
+    {
+      "word": "monitor",
+      "ipa": "ˈmɑnətər",
+      "katakana": "モニター",
+      "meaning": "監視する",
+      "days": [
+        19
+      ]
+    },
+    {
+      "word": "more than",
+      "ipa": "mɔr ðən",
+      "katakana": "モー　ザン",
+      "meaning": "〜を超えて",
+      "days": [
+        42
+      ]
+    },
+    {
+      "word": "multitask",
+      "ipa": "ˈməltiˌtæsk",
+      "katakana": "マルチーッタスク",
+      "meaning": "同時に複数作業をする",
+      "days": [
+        15
+      ]
+    },
+    {
+      "word": "mutual aid",
+      "ipa": "mˈjuʧuəl eɪd",
+      "katakana": "ミューチュアル　エイド",
+      "meaning": "相互扶助",
+      "days": [
+        46
+      ]
+    },
+    {
+      "word": "native tree",
+      "ipa": "ˈneɪtɪv tri",
+      "katakana": "ネイティブ　ツリー",
+      "meaning": "在来樹",
+      "days": [
+        7
+      ]
+    },
+    {
+      "word": "nearly",
+      "ipa": "ˈnɪrli",
+      "katakana": "ニーリー",
+      "meaning": "ほぼ",
+      "days": [
+        42
+      ]
+    },
+    {
+      "word": "neighbor",
+      "ipa": "ˈneɪbər",
+      "katakana": "ネイバー",
+      "meaning": "近隣住民",
+      "days": [
+        6,
+        46
+      ]
+    },
+    {
+      "word": "net zero",
+      "ipa": "nɛt ˈziroʊ",
+      "katakana": "ネト　ジロウ",
+      "meaning": "排出実質ゼロ",
+      "days": [
+        30
+      ]
+    },
+    {
+      "word": "neutrality",
+      "ipa": "nuˈtræləti",
+      "katakana": "ニュートラリティ",
+      "meaning": "中立性",
+      "days": [
+        9
+      ]
+    },
+    {
+      "word": "notice",
+      "ipa": "ˈnoʊtɪs",
+      "katakana": "ノーティス",
+      "meaning": "気づく",
+      "days": [
+        9
+      ]
+    },
+    {
+      "word": "nutritious",
+      "ipa": "nuˈtrɪʃəs",
+      "katakana": "ヌートリシャス",
+      "meaning": "栄養価の高い",
+      "days": [
+        13
+      ]
+    },
+    {
+      "word": "official",
+      "ipa": "əˈfɪʃəl",
+      "katakana": "オフィシャル",
+      "meaning": "当局者",
+      "days": [
+        41
+      ]
+    },
+    {
+      "word": "on the other hand",
+      "ipa": "ɔn ðə ˈəðər hænd",
+      "katakana": "アン　ザ　アザー　ハンド",
+      "meaning": "他方では",
+      "days": [
+        44
+      ]
+    },
+    {
+      "word": "One Health",
+      "ipa": "wʌn hɛlθ",
+      "katakana": "ワン　ヘルス",
+      "meaning": "ワンヘルス",
+      "days": [
+        38
+      ]
+    },
+    {
+      "word": "opinion",
+      "ipa": "əˈpɪnjən",
+      "katakana": "アピンヤン",
+      "meaning": "意見",
+      "days": [
+        24
+      ]
+    },
+    {
+      "word": "outbreak",
+      "ipa": "ˈaʊtˌbreɪk",
+      "katakana": "アウトブレイク",
+      "meaning": "発生・流行",
+      "days": [
+        17
+      ]
+    },
+    {
+      "word": "overall",
+      "ipa": "ˈoʊvərˌɔl",
+      "katakana": "オウヴァーオール",
+      "meaning": "全体として",
+      "days": [
+        44
+      ]
+    },
+    {
+      "word": "overlap",
+      "ipa": "ˈoʊvərˌlæp",
+      "katakana": "オーバーラップ",
+      "meaning": "重なる",
+      "days": [
+        16
+      ]
+    },
+    {
+      "word": "overshoot",
+      "ipa": "ˈoʊvərˌʃut",
+      "katakana": "オウヴァーシュート",
+      "meaning": "一時的な超過",
+      "days": [
+        29
+      ]
+    },
+    {
+      "word": "Pacific Ocean",
+      "ipa": "pəˈsɪfɪk ˈoʊʃən",
+      "katakana": "パシフィク　オウシャン",
+      "meaning": "太平洋",
+      "days": [
+        25
+      ]
+    },
+    {
+      "word": "pain medication",
+      "ipa": "peɪn ˌmɛdəˈkeɪʃən",
+      "katakana": "ペイン　メディケーション",
+      "meaning": "鎮痛薬",
+      "days": [
+        10
+      ]
+    },
+    {
+      "word": "pandemic",
+      "ipa": "pænˈdɛmɪk",
+      "katakana": "パンデミック",
+      "meaning": "パンデミック",
+      "days": [
+        17
+      ]
+    },
+    {
+      "word": "participant",
+      "ipa": "pɑrˈtɪsəpənt",
+      "katakana": "パーティシパント",
+      "meaning": "参加者",
+      "days": [
+        10
+      ]
+    },
+    {
+      "word": "passenger",
+      "ipa": "ˈpæsənʤər",
+      "katakana": "パッセンジャー",
+      "meaning": "乗客",
+      "days": [
+        18
+      ]
+    },
+    {
+      "word": "peak",
+      "ipa": "pik",
+      "katakana": "ピーク",
+      "meaning": "ピークに達する",
+      "days": [
+        29
+      ]
+    },
+    {
+      "word": "percentage",
+      "ipa": "pərˈsɛnɪʤ",
+      "katakana": "パーセンテージ",
+      "meaning": "割合",
+      "days": [
+        16
+      ]
+    },
+    {
+      "word": "percentage point",
+      "ipa": "pərˈsɛnɪʤ pɔɪnt",
+      "katakana": "パーセンテージ　ポイント",
+      "meaning": "パーセントポイント",
+      "days": [
+        42
+      ]
+    },
+    {
+      "word": "performance",
+      "ipa": "pərˈfɔrməns",
+      "katakana": "パフォーマンス",
+      "meaning": "競技成績",
+      "days": [
+        22
+      ]
+    },
+    {
+      "word": "persist",
+      "ipa": "pərˈsɪst",
+      "katakana": "パーシスト",
+      "meaning": "続く",
+      "days": [
+        26
+      ]
+    },
+    {
+      "word": "perspective",
+      "ipa": "pərˈspɛktɪv",
+      "katakana": "パースペクティブ",
+      "meaning": "視点",
+      "days": [
+        12,
+        51
+      ]
+    },
+    {
+      "word": "persuasive",
+      "ipa": "pərsˈweɪsɪv",
+      "katakana": "パースエイシブ",
+      "meaning": "説得力のある",
+      "days": [
+        51
+      ]
+    },
+    {
+      "word": "phase out",
+      "ipa": "feɪz aʊt",
+      "katakana": "フェイズ　アウト",
+      "meaning": "段階的に廃止する",
+      "days": [
+        14
+      ]
+    },
+    {
+      "word": "physical response",
+      "ipa": "ˈfɪzɪkəl rɪˈspɑns",
+      "katakana": "フィジカル　レスポンス",
+      "meaning": "身体反応",
+      "days": [
+        10
+      ]
+    },
+    {
+      "word": "pilot project",
+      "ipa": "ˈpaɪlət ˈprɑʤɛkt",
+      "katakana": "パイラト　プーラジェクト",
+      "meaning": "試験的事業",
+      "days": [
+        48
+      ]
+    },
+    {
+      "word": "plant",
+      "ipa": "plænt",
+      "katakana": "プーラント",
+      "meaning": "植える",
+      "days": [
+        8
+      ]
+    },
+    {
+      "word": "plant health",
+      "ipa": "plænt hɛlθ",
+      "katakana": "プーラント　ヘルス",
+      "meaning": "植物の健康",
+      "days": [
+        38
+      ]
+    },
+    {
+      "word": "policy",
+      "ipa": "ˈpɑləsi",
+      "katakana": "パラシー",
+      "meaning": "政策",
+      "days": [
+        53
+      ]
+    },
+    {
+      "word": "policy brief",
+      "ipa": "ˈpɑləsi brif",
+      "katakana": "パラシー　ブーリーフ",
+      "meaning": "政策概要",
+      "days": [
+        36
+      ]
+    },
+    {
+      "word": "pre-industrial",
+      "ipa": "priˌɪnˈdəstriəl",
+      "katakana": "プーリー　インダストリーアル",
+      "meaning": "産業革命前の",
+      "days": [
+        29
+      ]
+    },
+    {
+      "word": "prepare",
+      "ipa": "priˈpɛr",
+      "katakana": "プーリーッペ",
+      "meaning": "備える",
+      "days": [
+        27,
+        52
+      ]
+    },
+    {
+      "word": "preparedness",
+      "ipa": "priˈpɛrədnəs",
+      "katakana": "プリペアドネス",
+      "meaning": "備え",
+      "days": [
+        50
+      ]
+    },
+    {
+      "word": "pressure",
+      "ipa": "ˈprɛʃər",
+      "katakana": "プレッシャー",
+      "meaning": "圧力",
+      "days": [
+        11
+      ]
+    },
+    {
+      "word": "prevention",
+      "ipa": "priˈvɛnʃən",
+      "katakana": "プーリーヴェンシャン",
+      "meaning": "予防",
+      "days": [
+        40
+      ]
+    },
+    {
+      "word": "privacy",
+      "ipa": "ˈpraɪvəsi",
+      "katakana": "プライバシー",
+      "meaning": "プライバシー",
+      "days": [
+        35,
+        54
+      ]
+    },
+    {
+      "word": "procurement",
+      "ipa": "proʊˈkjʊrmənt",
+      "katakana": "プロキュアメント",
+      "meaning": "調達",
+      "days": [
+        36
+      ]
+    },
+    {
+      "word": "protect",
+      "ipa": "prəˈtɛkt",
+      "katakana": "プーラテクト",
+      "meaning": "守る",
+      "days": [
+        53
+      ]
+    },
+    {
+      "word": "protect lives",
+      "ipa": "prəˈtɛkt lɪvz",
+      "katakana": "プーラテクト　リヴズ",
+      "meaning": "命を守る",
+      "days": [
+        40
+      ]
+    },
+    {
+      "word": "provide evidence",
+      "ipa": "prəˈvaɪd ˈɛvədəns",
+      "katakana": "プーラヴァイド　エビデンス",
+      "meaning": "証拠を示す",
+      "days": [
+        20
+      ]
+    },
+    {
+      "word": "public comment",
+      "ipa": "ˈpəblɪk ˈkɑmɛnt",
+      "katakana": "パブリク　カメント",
+      "meaning": "一般からの意見",
+      "days": [
+        36
+      ]
+    },
+    {
+      "word": "public health",
+      "ipa": "ˈpəblɪk hɛlθ",
+      "katakana": "パブリク　ヘルス",
+      "meaning": "公衆衛生",
+      "days": [
+        53
+      ]
+    },
+    {
+      "word": "public opinion",
+      "ipa": "ˈpəblɪk əˈpɪnjən",
+      "katakana": "パブリク　アピンヤン",
+      "meaning": "世論",
+      "days": [
+        13
+      ]
+    },
+    {
+      "word": "public service",
+      "ipa": "ˈpəblɪk ˈsərvɪs",
+      "katakana": "パブリク　サーヴァス",
+      "meaning": "公共サービス",
+      "days": [
+        46
+      ]
+    },
+    {
+      "word": "public trust",
+      "ipa": "ˈpəblɪk trəst",
+      "katakana": "パブリク　トゥーラスト",
+      "meaning": "社会の信頼",
+      "days": [
+        39
+      ]
+    },
+    {
+      "word": "publish",
+      "ipa": "ˈpəblɪʃ",
+      "katakana": "パブリシュ",
+      "meaning": "出版する",
+      "days": [
+        4
+      ]
+    },
+    {
+      "word": "radiation",
+      "ipa": "ˌreɪdiˈeɪʃən",
+      "katakana": "レイディエーション",
+      "meaning": "放射線",
+      "days": [
+        19
+      ]
+    },
+    {
+      "word": "radioactive",
+      "ipa": "ˌreɪdioʊˈæktɪv",
+      "katakana": "レイディーオウアクチヴ",
+      "meaning": "放射性の",
+      "days": [
+        19
+      ]
+    },
+    {
+      "word": "rainfall",
+      "ipa": "ˈreɪnˌfɔl",
+      "katakana": "レインフォール",
+      "meaning": "降雨",
+      "days": [
+        26
+      ]
+    },
+    {
+      "word": "randomly",
+      "ipa": "ˈrændəmli",
+      "katakana": "ランダムリー",
+      "meaning": "無作為に",
+      "days": [
+        4
+      ]
+    },
+    {
+      "word": "rank",
+      "ipa": "ræŋk",
+      "katakana": "ランク",
+      "meaning": "順位づけする",
+      "days": [
+        9
+      ]
+    },
+    {
+      "word": "reason",
+      "ipa": "ˈrizən",
+      "katakana": "リーザン",
+      "meaning": "筋道を立てて考える",
+      "days": [
+        34,
+        45
+      ]
+    },
+    {
+      "word": "recently",
+      "ipa": "ˈrisəntli",
+      "katakana": "リーサントリー",
+      "meaning": "最近",
+      "days": [
+        41
+      ]
+    },
+    {
+      "word": "recharge",
+      "ipa": "riˈʧɑrʤ",
+      "katakana": "リチャージ",
+      "meaning": "再充電する",
+      "days": [
+        18
+      ]
+    },
+    {
+      "word": "recover",
+      "ipa": "rɪˈkəvər",
+      "katakana": "リカヴァー",
+      "meaning": "復旧する",
+      "days": [
+        50
+      ]
+    },
+    {
+      "word": "recovery",
+      "ipa": "rɪˈkəvəri",
+      "katakana": "リカバリー",
+      "meaning": "回復",
+      "days": [
+        22
+      ]
+    },
+    {
+      "word": "recycle",
+      "ipa": "riˈsaɪkəl",
+      "katakana": "リーサイカル",
+      "meaning": "リサイクルする",
+      "days": [
+        14
+      ]
+    },
+    {
+      "word": "recycled paper",
+      "ipa": "riˈsaɪkəld ˈpeɪpər",
+      "katakana": "リーサイカルド　ペイッパー",
+      "meaning": "再生紙",
+      "days": [
+        1
+      ]
+    },
+    {
+      "word": "regulation",
+      "ipa": "ˌrɛgjəˈleɪʃən",
+      "katakana": "レギュレーション",
+      "meaning": "規制",
+      "days": [
+        48
+      ]
+    },
+    {
+      "word": "release",
+      "ipa": "riˈlis",
+      "katakana": "リーリース",
+      "meaning": "放出する",
+      "days": [
+        20
+      ]
+    },
+    {
+      "word": "reliable",
+      "ipa": "rɪˈlaɪəbəl",
+      "katakana": "リライアブル",
+      "meaning": "信頼できる",
+      "days": [
+        12,
+        24,
+        37
+      ]
+    },
+    {
+      "word": "renewable energy",
+      "ipa": "riˈnuəbəl ˈɛnərʤi",
+      "katakana": "リーヌーアバル　エナージー",
+      "meaning": "再生可能エネルギー",
+      "days": [
+        30
+      ]
+    },
+    {
+      "word": "replace",
+      "ipa": "ˌriˈpleɪs",
+      "katakana": "リープレイス",
+      "meaning": "置き換える",
+      "days": [
+        34
+      ]
+    },
+    {
+      "word": "reportedly",
+      "ipa": "rɪˈpɔrtədli",
+      "katakana": "リポーータドリー",
+      "meaning": "報道によれば",
+      "days": [
+        41
+      ]
+    },
+    {
+      "word": "research capacity",
+      "ipa": "ˈrisərʧ kəˈpæsɪti",
+      "katakana": "リーサーチ　カパサチー",
+      "meaning": "研究能力",
+      "days": [
+        39
+      ]
+    },
+    {
+      "word": "research evidence",
+      "ipa": "ˈrisərʧ ˈɛvədəns",
+      "katakana": "リーサーチ　エビデンス",
+      "meaning": "研究上の証拠",
+      "days": [
+        15
+      ]
+    },
+    {
+      "word": "researcher",
+      "ipa": "ˈrisərʧər",
+      "katakana": "リサーチャー",
+      "meaning": "研究者",
+      "days": [
+        10
+      ]
+    },
+    {
+      "word": "resilience",
+      "ipa": "rɪˈzɪljəns",
+      "katakana": "リジリーアンス",
+      "meaning": "回復力",
+      "days": [
+        23,
+        31
+      ]
+    },
+    {
+      "word": "resource",
+      "ipa": "ˈrisɔrs",
+      "katakana": "リソース",
+      "meaning": "資源",
+      "days": [
+        49
+      ]
+    },
+    {
+      "word": "respect",
+      "ipa": "rɪˈspɛkt",
+      "katakana": "リスペクト",
+      "meaning": "尊重する",
+      "days": [
+        47
+      ]
+    },
+    {
+      "word": "respond",
+      "ipa": "rɪˈspɑnd",
+      "katakana": "リスーパンド",
+      "meaning": "応答する",
+      "days": [
+        51
+      ]
+    },
+    {
+      "word": "responsible use",
+      "ipa": "riˈspɑnsəbəl juz",
+      "katakana": "リースーパッンサバル　ユース",
+      "meaning": "責任ある利用",
+      "days": [
+        35
+      ]
+    },
+    {
+      "word": "result in",
+      "ipa": "rɪˈzəlt ɪn",
+      "katakana": "リザルト　イン",
+      "meaning": "〜という結果になる",
+      "days": [
+        43
+      ]
+    },
+    {
+      "word": "right",
+      "ipa": "raɪt",
+      "katakana": "ライト",
+      "meaning": "権利",
+      "days": [
+        47
+      ]
+    },
+    {
+      "word": "risk",
+      "ipa": "rɪsk",
+      "katakana": "リスク",
+      "meaning": "危険性",
+      "days": [
+        20,
+        28
+      ]
+    },
+    {
+      "word": "runway",
+      "ipa": "ˈrənˌweɪ",
+      "katakana": "ランウェイ",
+      "meaning": "滑走路",
+      "days": [
+        18
+      ]
+    },
+    {
+      "word": "safe place",
+      "ipa": "seɪf pleɪs",
+      "katakana": "セーフ　プレイス",
+      "meaning": "安全な場所",
+      "days": [
+        6
+      ]
+    },
+    {
+      "word": "safeguard",
+      "ipa": "ˈseɪfˌgɑrd",
+      "katakana": "セイフガド",
+      "meaning": "保護策",
+      "days": [
+        35
+      ]
+    },
+    {
+      "word": "science-based",
+      "ipa": "saɪənsbeɪst",
+      "katakana": "サイアンス　ベイスト",
+      "meaning": "科学的根拠に基づく",
+      "days": [
+        39
+      ]
+    },
+    {
+      "word": "scientific",
+      "ipa": "ˌsaɪənˈtɪfɪk",
+      "katakana": "サイエンティフィック",
+      "meaning": "科学的な",
+      "days": [
+        53
+      ]
+    },
+    {
+      "word": "score",
+      "ipa": "skɔr",
+      "katakana": "スコア",
+      "meaning": "得点",
+      "days": [
+        17
+      ]
+    },
+    {
+      "word": "screen",
+      "ipa": "skrin",
+      "katakana": "スークーリーン",
+      "meaning": "画面",
+      "days": [
+        4
+      ]
+    },
+    {
+      "word": "share knowledge",
+      "ipa": "ʃɛr ˈnɑlɪʤ",
+      "katakana": "シェ　ナラジ",
+      "meaning": "知識を共有する",
+      "days": [
+        39
+      ]
+    },
+    {
+      "word": "shortage",
+      "ipa": "ˈʃɔrtɪʤ",
+      "katakana": "ショーータジ",
+      "meaning": "不足",
+      "days": [
+        49
+      ]
+    },
+    {
+      "word": "should have been heeded",
+      "ipa": "ʃʊd hæv bɪn ˈhidɪd",
+      "katakana": "シュッド　ハブ　ビーン　ヒーデッド",
+      "meaning": "聞き入れられるべきだった",
+      "days": [
+        11
+      ]
+    },
+    {
+      "word": "simultaneously",
+      "ipa": "ˌsaɪməlˈteɪniəsli",
+      "katakana": "サイマルテイニアスリー",
+      "meaning": "同時に",
+      "days": [
+        15
+      ]
+    },
+    {
+      "word": "single-use plastic",
+      "ipa": "ˈsɪŋgəljuz ˈplæstɪk",
+      "katakana": "シングガル　ユース　プーラスーチク",
+      "meaning": "使い捨てプラスチック",
+      "days": [
+        14
+      ]
+    },
+    {
+      "word": "source",
+      "ipa": "sɔrs",
+      "katakana": "ソース",
+      "meaning": "情報源",
+      "days": [
+        24,
+        33
+      ]
+    },
+    {
+      "word": "sovereignty",
+      "ipa": "ˈsɑvrənti",
+      "katakana": "ソブリンティ",
+      "meaning": "主権",
+      "days": [
+        36
+      ]
+    },
+    {
+      "word": "special needs",
+      "ipa": "ˈspɛʃəl nidz",
+      "katakana": "スーペシャル　ニードズ",
+      "meaning": "特別な支援ニーズ",
+      "days": [
+        21
+      ]
+    },
+    {
+      "word": "species",
+      "ipa": "ˈspiʃiz",
+      "katakana": "スピーシーズ",
+      "meaning": "種",
+      "days": [
+        8
+      ]
+    },
+    {
+      "word": "stock market",
+      "ipa": "stɑk ˈmɑrkɪt",
+      "katakana": "ストック　マーケット",
+      "meaning": "株式市場",
+      "days": [
+        1
+      ]
+    },
+    {
+      "word": "store data",
+      "ipa": "stɔr ˈdætə",
+      "katakana": "ストア　データ",
+      "meaning": "データを保存する",
+      "days": [
+        3
+      ]
+    },
+    {
+      "word": "strengthen",
+      "ipa": "ˈstrɛŋθən",
+      "katakana": "スートゥーレングサン",
+      "meaning": "強化する",
+      "days": [
+        34
+      ]
+    },
+    {
+      "word": "subtle",
+      "ipa": "ˈsətəl",
+      "katakana": "サトル",
+      "meaning": "微妙な・わずかな",
+      "days": [
+        9
+      ]
+    },
+    {
+      "word": "support",
+      "ipa": "səˈpɔrt",
+      "katakana": "サポート",
+      "meaning": "裏付ける",
+      "days": [
+        45
+      ]
+    },
+    {
+      "word": "support learning",
+      "ipa": "səˈpɔrt ˈlərnɪŋ",
+      "katakana": "サポート　ラーニング",
+      "meaning": "学習を支援する",
+      "days": [
+        21
+      ]
+    },
+    {
+      "word": "survey",
+      "ipa": "ˈsərˌveɪ",
+      "katakana": "サーベイ",
+      "meaning": "調査",
+      "days": [
+        15
+      ]
+    },
+    {
+      "word": "sustainable",
+      "ipa": "səˈsteɪnəbəl",
+      "katakana": "サスーテイナバル",
+      "meaning": "持続可能な",
+      "days": [
+        49
+      ]
+    },
+    {
+      "word": "sustainable food source",
+      "ipa": "səˈsteɪnəbəl fud sɔrs",
+      "katakana": "サスーテイナバル　フード　ソース",
+      "meaning": "持続可能な食料源",
+      "days": [
+        13
+      ]
+    },
+    {
+      "word": "teacher agency",
+      "ipa": "ˈtiʧər ˈeɪʤənsi",
+      "katakana": "チーチャー　エイジャンシー",
+      "meaning": "教師の主体性",
+      "days": [
+        34
+      ]
+    },
+    {
+      "word": "technology",
+      "ipa": "tɛkˈnɑləʤi",
+      "katakana": "テクノロジー",
+      "meaning": "技術",
+      "days": [
+        21,
+        48
+      ]
+    },
+    {
+      "word": "temperature",
+      "ipa": "ˈtɛmpərəʧər",
+      "katakana": "テンペラチャー",
+      "meaning": "気温",
+      "days": [
+        26
+      ]
+    },
+    {
+      "word": "threshold",
+      "ipa": "θˈrɛˌʃoʊld",
+      "katakana": "スーレショウルド",
+      "meaning": "しきい値",
+      "days": [
+        29
+      ]
+    },
+    {
+      "word": "ticker-tape parade",
+      "ipa": "ˈtɪkərteɪp pəreɪd",
+      "katakana": "ティッカーテープ　パレード",
+      "meaning": "紙吹雪パレード",
+      "days": [
+        1
+      ]
+    },
+    {
+      "word": "tiny forest",
+      "ipa": "ˈtaɪni ˈfɔrɪst",
+      "katakana": "タイニー　フォレスト",
+      "meaning": "小さな森",
+      "days": [
+        7
+      ]
+    },
+    {
+      "word": "trade-off",
+      "ipa": "treɪdɔf",
+      "katakana": "トゥーレイド　オーフ",
+      "meaning": "両立しにくい関係",
+      "days": [
+        44
+      ]
+    },
+    {
+      "word": "translator",
+      "ipa": "trænzˈleɪtər",
+      "katakana": "トランスレイター",
+      "meaning": "翻訳者",
+      "days": [
+        2
+      ]
+    },
+    {
+      "word": "treated water",
+      "ipa": "ˈtritɪd ˈwɔtər",
+      "katakana": "トゥーリーッチド　ウォーター",
+      "meaning": "処理水",
+      "days": [
+        19
+      ]
+    },
+    {
+      "word": "uncertain",
+      "ipa": "ənˈsərtən",
+      "katakana": "アンサータン",
+      "meaning": "不確かな",
+      "days": [
+        52
+      ]
+    },
+    {
+      "word": "UNESCO",
+      "ipa": "juˈnɛskoʊ",
+      "katakana": "ユーネスーコウ",
+      "meaning": "ユネスコ",
+      "days": [
+        21
+      ]
+    },
+    {
+      "word": "unusual",
+      "ipa": "ənˈjuˌʒuəl",
+      "katakana": "アンユージューアル",
+      "meaning": "異例の",
+      "days": [
+        28
+      ]
+    },
+    {
+      "word": "vaccination",
+      "ipa": "væksəˈneɪʃən",
+      "katakana": "ワクシネーション",
+      "meaning": "ワクチン接種",
+      "days": [
+        40
+      ]
+    },
+    {
+      "word": "verify",
+      "ipa": "ˈvɛrəˌfaɪ",
+      "katakana": "ヴェラファイ",
+      "meaning": "確認する",
+      "days": [
+        33
+      ]
+    },
+    {
+      "word": "version",
+      "ipa": "ˈvərʒən",
+      "katakana": "ヴァージャン",
+      "meaning": "版",
+      "days": [
+        3
+      ]
+    },
+    {
+      "word": "volunteer",
+      "ipa": "ˌvɑlənˈtɪr",
+      "katakana": "ボランティア",
+      "meaning": "ボランティア",
+      "days": [
+        46
+      ]
+    },
+    {
+      "word": "vulnerable",
+      "ipa": "ˈvəlnərəbəl",
+      "katakana": "ヴァルナーアバル",
+      "meaning": "影響を受けやすい",
+      "days": [
+        17
+      ]
+    },
+    {
+      "word": "vulnerable sector",
+      "ipa": "ˈvəlnərəbəl ˈsɛktər",
+      "katakana": "ヴァルナーアバル　セクター",
+      "meaning": "脆弱な分野",
+      "days": [
+        27
+      ]
+    },
+    {
+      "word": "warning",
+      "ipa": "ˈwɔrnɪŋ",
+      "katakana": "ワーニング",
+      "meaning": "警告",
+      "days": [
+        11,
+        50
+      ]
+    },
+    {
+      "word": "waste management",
+      "ipa": "weɪst ˈmænɪʤmənt",
+      "katakana": "ウェイスト　マナジマント",
+      "meaning": "廃棄物管理",
+      "days": [
+        14
+      ]
+    },
+    {
+      "word": "water supply",
+      "ipa": "ˈwɔtər səˈplaɪ",
+      "katakana": "ウォーター　サプライ",
+      "meaning": "水の供給",
+      "days": [
+        27
+      ]
+    },
+    {
+      "word": "weather pattern",
+      "ipa": "ˈwɛðər ˈpætərn",
+      "katakana": "ウェザー　パターン",
+      "meaning": "気象パターン",
+      "days": [
+        26
+      ]
+    },
+    {
+      "word": "well-being",
+      "ipa": "wɛlbiɪŋ",
+      "katakana": "ウェル　ビーイング",
+      "meaning": "幸福・心身の健康",
+      "days": [
+        23,
+        51
+      ]
+    },
+    {
+      "word": "whereas",
+      "ipa": "wɛˈræz",
+      "katakana": "ウェラズ",
+      "meaning": "一方で",
+      "days": [
+        16
+      ]
+    }
+  ]
+};
