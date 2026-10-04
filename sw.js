@@ -1,10 +1,10 @@
 /* Offline cache for 夜の英語練習帳 (PWA) — v3 */
-var CACHE = "vocab-app-v3";
+var CACHE = "vocab-app-v4";
 var ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=3",
-  "./app.js?v=3",
+  "./styles.css?v=4",
+  "./app.js?v=4",
   "./data.js",
   "./vocab_app.json",
   "./manifest.webmanifest",

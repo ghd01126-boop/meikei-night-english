@@ -50,6 +50,14 @@
   }
 
   /* ---------- speech (tap-to-listen) ---------- */
+  /* iOS (esp. home-screen/standalone) keeps the audio session inactive until some
+     sound is played from a user gesture, so speechSynthesis goes silent. We warm
+     the session up with a Web Audio silent buffer + a speech prime, and delay the
+     real utterance so iOS doesn't drop it. */
+  var _audioCtx = null;
+  var _unlocked = false;
+  var _voices = [];
+
   function speechSupported() {
     return typeof window !== "undefined" && "speechSynthesis" in window &&
       typeof window.SpeechSynthesisUtterance === "function";
@@ -61,9 +69,13 @@
   function saveVoice() {
     try { localStorage.setItem(VOICE_KEY, state.voice ? "1" : "0"); } catch (e) {}
   }
+  function refreshVoices() {
+    try { _voices = window.speechSynthesis.getVoices() || []; } catch (e) { _voices = []; }
+    return _voices;
+  }
   function pickVoice(lang) {
     if (!speechSupported()) return null;
-    var vs = window.speechSynthesis.getVoices() || [];
+    var vs = (_voices && _voices.length) ? _voices : refreshVoices();
     if (!vs.length) return null;
     var want = (lang || "en-US").toLowerCase();
     var norm = function (l) { return String(l || "").replace("_", "-").toLowerCase(); };
@@ -73,17 +85,78 @@
     var en = vs.filter(function (v) { return /^en/i.test(v.lang); });
     return en[0] || null;
   }
+  function getAudioCtx() {
+    try {
+      if (!_audioCtx) {
+        var AC = window.AudioContext || window.webkitAudioContext;
+        if (AC) _audioCtx = new AC();
+      }
+      if (_audioCtx && _audioCtx.state === "suspended" && _audioCtx.resume) {
+        _audioCtx.resume();
+      }
+    } catch (e) {}
+    return _audioCtx;
+  }
+  function playSilent() {
+    // A short silent buffer "activates" the iOS audio session (no audible click).
+    try {
+      var ctx = getAudioCtx();
+      if (!ctx) return;
+      var len = Math.max(1, Math.floor((ctx.sampleRate || 44100) * 0.08));
+      var buf = ctx.createBuffer(1, len, ctx.sampleRate || 44100);
+      var src = ctx.createBufferSource();
+      src.buffer = buf;
+      src.connect(ctx.destination);
+      if (src.start) src.start(0); else if (src.noteOn) src.noteOn(0);
+    } catch (e) {}
+  }
+  function unlockAudio() {
+    playSilent();
+    try {
+      if (speechSupported()) {
+        var u = new window.SpeechSynthesisUtterance(" ");
+        u.volume = 0;
+        window.speechSynthesis.speak(u);
+        window.speechSynthesis.cancel();
+      }
+    } catch (e) {}
+    refreshVoices();
+  }
+  function armUnlock() {
+    if (_unlocked) return;
+    var fire = function () {
+      if (_unlocked) return;
+      _unlocked = true;
+      unlockAudio();
+      ["touchstart", "touchend", "pointerdown", "mousedown", "click"].forEach(function (t) {
+        document.removeEventListener(t, fire, true);
+      });
+    };
+    ["touchstart", "touchend", "pointerdown", "mousedown", "click"].forEach(function (t) {
+      document.addEventListener(t, fire, true);
+    });
+  }
   function speak(text, lang) {
     if (!state.voice || !speechSupported() || !text) return;
     var synth = window.speechSynthesis;
+    playSilent(); // re-activate the iOS audio session right before speaking
+    try { synth.resume(); } catch (e) {}
     try { synth.cancel(); } catch (e) {}
-    var u = new window.SpeechSynthesisUtterance(text);
-    u.lang = lang || "en-US";
-    u.rate = 0.92;
-    u.pitch = 1;
-    var v = pickVoice(u.lang);
-    if (v) u.voice = v;
-    setTimeout(function () { try { synth.speak(u); } catch (e) {} }, 0);
+    var doSpeak = function () {
+      try {
+        var u = new window.SpeechSynthesisUtterance(text);
+        u.lang = lang || "en-US";
+        u.rate = 0.92;
+        u.pitch = 1;
+        u.volume = 1;
+        var v = pickVoice(u.lang);
+        if (v) u.voice = v;
+        synth.speak(u);
+        try { synth.resume(); } catch (e) {}
+      } catch (e) {}
+    };
+    // iOS drops utterances issued too soon after cancel/voices-load.
+    setTimeout(doSpeak, 120);
   }
   function speakable(tag, cls, text, lang) {
     var n = el(tag, cls + (speechSupported() ? " speakable" : ""));
@@ -666,14 +739,14 @@
      Never let optional features abort the render. */
   function initVoices() {
     if (!speechSupported()) return;
+    armUnlock();
     var s = window.speechSynthesis;
-    var refresh = function () { try { s.getVoices(); } catch (e) {} };
-    try { refresh(); } catch (e) {}
+    refreshVoices();
     try {
-      if (typeof s.addEventListener === "function") s.addEventListener("voiceschanged", refresh);
-      else s.onvoiceschanged = refresh;
+      if (typeof s.addEventListener === "function") s.addEventListener("voiceschanged", refreshVoices);
+      else s.onvoiceschanged = refreshVoices;
     } catch (e) {
-      try { s.onvoiceschanged = refresh; } catch (e2) {}
+      try { s.onvoiceschanged = refreshVoices; } catch (e2) {}
     }
   }
   function showFatal(err) {
