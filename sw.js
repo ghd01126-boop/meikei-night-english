@@ -1,10 +1,10 @@
-/* Offline cache for 夜の英語練習帳 (PWA) */
-var CACHE = "vocab-app-v2";
+/* Offline cache for 夜の英語練習帳 (PWA) — v3 */
+var CACHE = "vocab-app-v3";
 var ASSETS = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./app.js",
+  "./styles.css?v=3",
+  "./app.js?v=3",
   "./data.js",
   "./vocab_app.json",
   "./manifest.webmanifest",
@@ -37,16 +37,33 @@ self.addEventListener("activate", function (e) {
 self.addEventListener("fetch", function (e) {
   var req = e.request;
   if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
-  e.respondWith(
-    caches.match(req).then(function (cached) {
-      if (cached) return cached;
-      return fetch(req).then(function (res) {
+
+  var accept = req.headers.get("accept") || "";
+  var isDoc = req.mode === "navigate" || accept.indexOf("text/html") >= 0;
+
+  if (isDoc) {
+    // Network-first for pages so a new deploy is picked up immediately.
+    e.respondWith(
+      fetch(req).then(function (res) {
         var copy = res.clone();
         caches.open(CACHE).then(function (c) { c.put(req, copy); }).catch(function () {});
         return res;
       }).catch(function () {
-        return caches.match("./index.html");
-      });
+        return caches.match(req).then(function (r) { return r || caches.match("./index.html"); });
+      })
+    );
+    return;
+  }
+
+  // Stale-while-revalidate for assets: instant from cache, refreshed in background.
+  e.respondWith(
+    caches.match(req).then(function (cached) {
+      var network = fetch(req).then(function (res) {
+        var copy = res.clone();
+        caches.open(CACHE).then(function (c) { c.put(req, copy); }).catch(function () {});
+        return res;
+      }).catch(function () { return cached; });
+      return cached || network;
     })
   );
 });

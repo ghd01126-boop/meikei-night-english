@@ -631,6 +631,14 @@
   function registerSW() {
     if (!("serviceWorker" in navigator)) return;
     if (location.protocol !== "http:" && location.protocol !== "https:") return;
+    var hadController = !!navigator.serviceWorker.controller;
+    try {
+      navigator.serviceWorker.addEventListener("controllerchange", function () {
+        if (!hadController || window.__vocabReloaded) return;
+        window.__vocabReloaded = true;
+        location.reload();
+      });
+    } catch (e) {}
     window.addEventListener("load", function () {
       navigator.serviceWorker.register("sw.js").catch(function () {});
     });
@@ -654,21 +662,48 @@
   }
 
   /* ---------- boot ---------- */
-  document.addEventListener("DOMContentLoaded", function () {
-    loadProgress();
-    loadVoice();
-    if (speechSupported()) {
-      try { window.speechSynthesis.getVoices(); } catch (e) {}
-      window.speechSynthesis.addEventListener("voiceschanged", function () {
-        try { window.speechSynthesis.getVoices(); } catch (e) {}
-      });
+  /* Older Safari (iOS 15) has speechSynthesis without addEventListener.
+     Never let optional features abort the render. */
+  function initVoices() {
+    if (!speechSupported()) return;
+    var s = window.speechSynthesis;
+    var refresh = function () { try { s.getVoices(); } catch (e) {} };
+    try { refresh(); } catch (e) {}
+    try {
+      if (typeof s.addEventListener === "function") s.addEventListener("voiceschanged", refresh);
+      else s.onvoiceschanged = refresh;
+    } catch (e) {
+      try { s.onvoiceschanged = refresh; } catch (e2) {}
     }
-    registerSW();
-    loadData().then(function () {
-      if (!DATA) return;
-      wire();
-      render();
-      iosInstallHint();
-    });
+  }
+  function showFatal(err) {
+    var m = document.getElementById("main");
+    if (!m) return;
+    m.innerHTML = '<div class="card" style="border-color:#7a3b4a">' +
+      '<b>起動エラー</b><br>' +
+      '<span style="color:var(--muted);font-size:12.5px">' +
+      esc(err && err.message ? err.message : String(err)) + "</span><br>" +
+      '<small style="color:var(--muted)">この画面をスクリーンショットで送ってください。</small></div>';
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    try {
+      loadProgress();
+      loadVoice();
+      registerSW();
+      loadData().then(function () {
+        if (!DATA) return;
+        try {
+          wire();
+          render();
+          initVoices();
+          iosInstallHint();
+        } catch (e) { showFatal(e); }
+      });
+    } catch (e) { showFatal(e); }
+  });
+  window.addEventListener("error", function (ev) {
+    if (window.__vocabFatalShown) return;
+    window.__vocabFatalShown = true;
+    showFatal(ev.error || ev.message || "unknown error");
   });
 })();
